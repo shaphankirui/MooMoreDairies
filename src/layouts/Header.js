@@ -71,7 +71,7 @@ const Header = () => {
                 <img src="images/logo.png" alt="image"  />
               </Link>
               <div className="company-name" style={{ marginLeft: '10px' }}>
-                Moo and More Dairy Farm 
+                Moo & More Dairy 
               </div>
             </div>
 
