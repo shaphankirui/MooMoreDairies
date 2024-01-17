@@ -67,7 +67,7 @@ const Header = () => {
           <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             {/* logo */}
             <div className="kf-logo">
-              <Link href="/">
+              <Link href="index-2">
                 <img src="images/logo.png" alt="image" />
               </Link>
             </div>
