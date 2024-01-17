@@ -679,6 +679,7 @@ const Index2 = () => {
         </div>
       </section>
       {/* Section CTA */}
+
       <section
         className="section kf-cta kf-parallax"
         style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
@@ -744,7 +745,7 @@ const Index2 = () => {
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    SWR React Hooks With Next Increm Ental Static Regeneration
+                     The Journey from Pasture to Pour: A Day in the Life of a Dairy Farmer
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -769,7 +770,7 @@ const Index2 = () => {
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    Decisions For Building Flexible Components DevTools Browser
+                  Sustainable Farming Practices: Nurturing the Land and Caring for Cows
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -794,8 +795,7 @@ const Index2 = () => {
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    SWR React Hooks With Next Increm Ental Static Regeneration
-                  </h5>
+                  Crafting Artisanal Cheese: A Behind-the-Scenes Look at Our Cheese-Making Process                  </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
                     25 Sep 2021

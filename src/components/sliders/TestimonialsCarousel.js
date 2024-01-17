@@ -12,13 +12,13 @@ const TestimonialsCarousel = () => {
             className="kf-subtitle element-anim-1 scroll-animate"
             data-animate="active"
           >
-            Customer Feedback
+            People's Feedback
           </div>
           <h3
             className="kf-title element-anim-1 scroll-animate"
             data-animate="active"
           >
-            What Our Clients Say
+            What People says About Us
           </h3>
         </div>
         <div className="kf-testimonials-carousel">
@@ -44,12 +44,11 @@ const TestimonialsCarousel = () => {
                       <i className="fas fa-star" />
                     </div>
                     <div className="text">
-                      Sed ut perspiciatis unde omnis natus error luptatem
-                      accusantium doloremque laudantium totam remriam eaque quae
-                      abillo
+                    Moo and Moro Dairy is a treasure in our community! The freshness of their dairy products is unmatched, and I love knowing 
+                    that I'm supporting a local business committed to quality and sustainability
                     </div>
                     <h5 className="name">
-                      Frederick S. France <em>Web Deigner</em>
+                      Frederick Marwa <em>Farmer</em>
                     </h5>
                   </div>
                 </div>
@@ -71,12 +70,11 @@ const TestimonialsCarousel = () => {
                       <i className="fas fa-star" />
                     </div>
                     <div className="text">
-                      Sed ut perspiciatis unde omnis natus error luptatem
-                      accusantium doloremque laudantium totam remriam eaque quae
-                      abillo
+                    "I can't get enough of Moo and Moro's artisanal cheeses! Every bite is a testament to their dedication to craftsmanship
+                     and the highest standards of quality. It's not just dairy – it's an experience.
                     </div>
                     <h5 className="name">
-                      James M. London <em>Lawyer</em>
+                      Winny Ngeno <em>Business Woman</em>
                     </h5>
                   </div>
                 </div>
@@ -98,12 +96,11 @@ const TestimonialsCarousel = () => {
                       <i className="fas fa-star" />
                     </div>
                     <div className="kf-text">
-                      Sed ut perspiciatis unde omnis natus error luptatem
-                      accusantium doloremque laudantium totam remriam eaque quae
-                      abillo
+                    Moo and Moro Dairy has become a staple in our household. Their commitment to sustainable farming practices and the well-being of their cows shines through in every glass of milk.
+                     It's more than a brand; it's a trusty companion in our daily routine.
                     </div>
                     <h5 className="name">
-                      Olivia D. New York <em>Dentist</em>
+                      Olivia D. Nakuru <em>Local Farmer</em>
                     </h5>
                   </div>
                 </div>
@@ -125,12 +122,11 @@ const TestimonialsCarousel = () => {
                       <i className="fas fa-star" />
                     </div>
                     <div className="kf-text">
-                      Sed ut perspiciatis unde omnis natus error luptatem
-                      accusantium doloremque laudantium totam remriam eaque quae
-                      abillo
+                    I recently toured Moo and Moro Dairy, and the passion the team has for their work is contagious. From the picturesque pastures to the state-of-the-art facilities, it's clear that they pour their hearts 
+                    into every aspect of their dairy production. Proud to be a Moo and Moro supporter!
                     </div>
                     <h5 className="name">
-                      Frederick S. France <em>Web Deigner</em>
+                      Frederick S. Nairobi <em>Teacher</em>
                     </h5>
                   </div>
                 </div>
@@ -179,12 +175,11 @@ const TestimonialsCarousel = () => {
                       <i className="fas fa-star" />
                     </div>
                     <div className="kf-text">
-                      Sed ut perspiciatis unde omnis natus error luptatem
-                      accusantium doloremque laudantium totam remriam eaque quae
-                      abillo
+                    I can't get enough of Moo and Moro's artisanal Mala! Every drop is a testament to their dedication to craftsmanship
+                     and the highest standards of quality. It's not just dairy – it's an experience.
                     </div>
                     <h5 className="name">
-                      Olivia D. New York <em>Dentist</em>
+                      Olivia D. Molo <em>Custommer</em>
                     </h5>
                   </div>
                 </div>

@@ -132,7 +132,7 @@ const About = () => {
                 <div className="icon">
                   <i className="las la-user-tie" />
                 </div>
-                <div className="num">36+</div>
+                <div className="num">16+</div>
                 <div className="desc">
                   <h5 className="name">Professional Workers</h5>
                   <div className="subname">Sed ut perspiciatis unde</div>
@@ -164,7 +164,7 @@ const About = () => {
                 </div>
                 <div className="num">100+</div>
                 <div className="desc">
-                  <h5 className="name">5 Star Reviews</h5>
+                  <h5 className="name">Litres produced Per day</h5>
                   <div className="subname">Sed ut perspiciatis unde</div>
                 </div>
               </div>
@@ -181,71 +181,9 @@ const About = () => {
           />
         </div>
       </section>
-      {/* Section Services-2 */}
-      <section className="section kf-services">
-        <div className="container">
-          <div className="kf-services-items-2 row">
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-services-item-2 element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  <img src="images/service_icon1.png" alt="image" />
-                </div>
-                <div className="desc">
-                  <h5 className="name">Birthday Cakes</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-services-item-2 element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  <img src="images/service_icon2.png" alt="image" />
-                </div>
-                <div className="desc">
-                  <h5 className="name">Fresh Foods</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-services-item-2 element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  <img src="images/service_icon3.png" alt="image" />
-                </div>
-                <div className="desc">
-                  <h5 className="name">Skills Chefs</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-services-item-2 element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  <img src="images/service_icon4.png" alt="image" />
-                </div>
-                <div className="desc">
-                  <h5 className="name">Organic Juice</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
       {/* Section Team */}
-      <section className="section kf-team section-bg">
+      <section className="section kf-team kf-section-transparent">
         <div className="container">
           <div className="kf-titles align-center">
             <div
@@ -258,7 +196,7 @@ const About = () => {
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Meet Our Professional Chefs
+              Meet Our Team Members
             </h3>
           </div>
           <div className="kf-team-items row">
@@ -266,16 +204,17 @@ const About = () => {
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
+                style={{ backgroundColor: "#090c0f" }}
               >
                 <div className="desc">
-                  <h5 className="name">Anthony J. Bowman</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <h5 className="name">Anthony Tonui</h5>
+                  <div className="subname">Senior Founder</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team1.jpg" alt="image" />
                   <div className="info">
                     <div className="label">bowmankf@gmail.com</div>
-                    <div className="label">+012 (345) 678 99</div>
+                    <div className="label">+254 (345) 678 99</div>
                   </div>
                   <div className="social">
                     <a href="#">
@@ -298,16 +237,17 @@ const About = () => {
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
+                style={{ backgroundColor: "#090c0f" }}
               >
                 <div className="desc">
-                  <h5 className="name">Kenny V. Gonzalez</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <h5 className="name">Kenny Rono</h5>
+                  <div className="subname">Manager</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team2.jpg" alt="image" />
                   <div className="info">
                     <div className="label">gonzalezkf@gmail.com</div>
-                    <div className="label">+012 (345) 678 99</div>
+                    <div className="label">+254 (345) 678 99</div>
                   </div>
                   <div className="social">
                     <a href="#">
@@ -330,16 +270,17 @@ const About = () => {
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
+                style={{ backgroundColor: "#090c0f" }}
               >
                 <div className="desc">
-                  <h5 className="name">Joseph M. Lawrence</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <h5 className="name">Joseph Mwangi</h5>
+                  <div className="subname">Assistant Manager</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team3.jpg" alt="image" />
                   <div className="info">
                     <div className="label">lawrencekf@gmail.com</div>
-                    <div className="label">+012 (345) 678 99</div>
+                    <div className="label">+254 (345) 678 99</div>
                   </div>
                   <div className="social">
                     <a href="#">
@@ -362,16 +303,17 @@ const About = () => {
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
+                style={{ backgroundColor: "#090c0f" }}
               >
                 <div className="desc">
-                  <h5 className="name">Charles K. Smith</h5>
-                  <div className="subname">Senior Chefs</div>
+                  <h5 className="name">Rachael Kirui</h5>
+                  <div className="subname">Vetinarian</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team4.jpg" alt="image" />
                   <div className="info">
                     <div className="label">smithkf@gmail.com</div>
-                    <div className="label">+012 (345) 678 99</div>
+                    <div className="label">+254 (345) 678 99</div>
                   </div>
                   <div className="social">
                     <a href="#">

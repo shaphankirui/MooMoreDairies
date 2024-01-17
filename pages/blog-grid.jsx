@@ -16,7 +16,7 @@ const BlogGrid = () => {
             data-splitting="chars"
             data-animate="active"
           >
-            Blog Grid
+            Our Blogs
           </h1>
         </div>
       </section>
