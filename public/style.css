@@ -813,6 +813,7 @@ hr {
   height: 0%;
   text-align: center;
   z-index: 1000;
+ 
 }
 
 .preloader .centrize {
@@ -826,7 +827,7 @@ hr {
   top: -20vh;
   width: 140vw;
   height: 120vh;
-  background: #090c0f;
+  background: skyblue;
 }
 
 .preloader .spinner-logo {
@@ -1460,7 +1461,7 @@ button.mfp-close:before {
   top: -20vh;
   width: 140vw;
   height: 120vh;
-  background: #090c0f;
+  background: skyblue;
   -webkit-animation: nav-mobile-close 0.75s cubic-bezier(0.3, 0, 0.3, 1) forwards;
   animation: nav-mobile-close 0.75s cubic-bezier(0.3, 0, 0.3, 1) forwards;
 }
@@ -1532,6 +1533,7 @@ button.mfp-close:before {
 
 .kf-navbar-mobile .kf-main-menu ul li ul li a {
   font-size: 18px;
+  color: black;
 }
 
 .kf-navbar-mobile .kf-topline {
@@ -1632,7 +1634,7 @@ button.mfp-close:before {
 **/
 .kf-footer {
   padding: 70px 0 0 0;
-  background: #090c0f;
+  background: rgb(13, 99, 133);
 }
 
 .kf-footer h5 {
@@ -2644,7 +2646,7 @@ button.mfp-close:before, button.mfp-arrow:before {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #090c0f;
+  background: skyblue;
   opacity: 0.75;
 }
 
@@ -2652,7 +2654,7 @@ button.mfp-close:before, button.mfp-arrow:before {
   position: relative;
   padding: 80px;
   min-height: 540px;
-  background-color: #090c0f;
+  background-color: skyblue;
   background-position: 80% bottom;
   background-repeat: no-repeat;
   background-size: 402px auto;
@@ -2709,7 +2711,7 @@ button.mfp-close:before, button.mfp-arrow:before {
   margin: 20px 0 10px 0;
   font-family: "Roboto";
   font-size: 18px;
-  color: #fff;
+  color: black;
   font-weight: 600;
 }
 
@@ -3059,7 +3061,7 @@ button.mfp-close:before, button.mfp-arrow:before {
   padding: 20px 25px 0 25px;
   position: relative;
   height: 300px;
-  background: #0e1317;
+  background: skyblue;
   text-align: center;
 }
 

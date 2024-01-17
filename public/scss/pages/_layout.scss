@@ -542,9 +542,11 @@
 	}
 	.name {
 		margin: 0 0 10px 0;
+		
 	}
 	.subname {
 		margin-bottom: 10px;
+		color:black;
 	}
 	.price {
 		position: relative;
@@ -1207,7 +1209,7 @@
 			font-weight: 500;
 		}
 		.subname {
-			color: $base_link_color;
+			color:black;
 		}
 	}
 	.image {
@@ -2016,8 +2018,8 @@
 		height: 445px;
 	}
 	.subname {
-		color: $base_link_color;
-	}
+		color:black;
+		}
 	.name {
 		margin: 10px 0 20px 0;
 	}

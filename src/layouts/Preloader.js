@@ -9,7 +9,7 @@ const Preloader = () => {
   }, []);
 
   return (
-    <div className={`preloader ${loaded ? "loaded" : ""}`}>
+    <div style={{background:"skyblue"}} className={`preloader ${loaded ? "loaded" : ""}`}>
       <div
         className="centrize full-width"
         style={{ display: loaded ? "none" : "table" }}

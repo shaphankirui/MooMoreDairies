@@ -334,7 +334,7 @@ const Index2 = () => {
               data-animate="active"
               style={{color: "#FFFFFF"}}
             >
-              Experience Team Member
+              Experience Team Members
             </div>
             <h3
               className="kf-title element-anim-1 scroll-animate"
@@ -349,11 +349,11 @@ const Index2 = () => {
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
-                style={{ backgroundColor: "#090c0f" }}
+                style={{ backgroundColor: "skyblue" }}
               >
                 <div className="desc">
-                  <h5 className="name">Anthony Tonui</h5>
-                  <div className="subname">Senior Founder</div>
+                  <h5 className="name" style={{ color: "black" }}>Anthony Tonui</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}>Senior Founder</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team1.jpg" alt="image" />
@@ -382,16 +382,16 @@ const Index2 = () => {
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
-                style={{ backgroundColor: "#090c0f" }}
+                style={{ backgroundColor: "skyblue" }}
               >
                 <div className="desc">
-                  <h5 className="name">Kenny Rono</h5>
-                  <div className="subname">Manager</div>
+                  <h5 className="name" style={{ color: "black" }}>Anthony Tonui</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}>Senior Founder</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team2.jpg" alt="image" />
+                  <img src="images/team1.jpg" alt="image" />
                   <div className="info">
-                    <div className="label">gonzalezkf@gmail.com</div>
+                    <div className="label">bowmankf@gmail.com</div>
                     <div className="label">+254 (345) 678 99</div>
                   </div>
                   <div className="social">
@@ -415,16 +415,16 @@ const Index2 = () => {
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
-                style={{ backgroundColor: "#090c0f" }}
+                style={{ backgroundColor: "skyblue" }}
               >
                 <div className="desc">
-                  <h5 className="name">Joseph Mwangi</h5>
-                  <div className="subname">Assistant Manager</div>
+                  <h5 className="name" style={{ color: "black" }}>Anthony Tonui</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}>Senior Founder</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team3.jpg" alt="image" />
+                  <img src="images/team1.jpg" alt="image" />
                   <div className="info">
-                    <div className="label">lawrencekf@gmail.com</div>
+                    <div className="label">bowmankf@gmail.com</div>
                     <div className="label">+254 (345) 678 99</div>
                   </div>
                   <div className="social">
@@ -448,16 +448,16 @@ const Index2 = () => {
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
-                style={{ backgroundColor: "#090c0f" }}
+                style={{ backgroundColor: "skyblue" }}
               >
                 <div className="desc">
-                  <h5 className="name">Rachael Kirui</h5>
-                  <div className="subname">Vetinarian</div>
+                  <h5 className="name" style={{ color: "black" }}>Anthony Tonui</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}>Senior Founder</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team4.jpg" alt="image" />
+                  <img src="images/team1.jpg" alt="image" />
                   <div className="info">
-                    <div className="label">smithkf@gmail.com</div>
+                    <div className="label">bowmankf@gmail.com</div>
                     <div className="label">+254 (345) 678 99</div>
                   </div>
                   <div className="social">
@@ -484,7 +484,7 @@ const Index2 = () => {
       {/* Section About-2 */}
       <section
         className="section kf-about-2"
-        style={{ backgroundImage: "url(images/category_bg.jpg)" }}
+        style={{ backgroundImage: "url(images/bg.jpeg)" }}
       >
         <div className="container">
           <div className="row">

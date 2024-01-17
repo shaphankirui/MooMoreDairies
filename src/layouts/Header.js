@@ -21,7 +21,7 @@ const Header = () => {
   const activeMenuSet = (value) =>
       setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
-      value === activeMenu ? { display: "block" } : { display: "none" };
+      value === activeMenu ? { display: "block",background:"skyblue"} : { display: "none" };
 
   return (
     <header className={`kf-header ${toggle ? "animated" : ""}`}>
@@ -110,7 +110,7 @@ const Header = () => {
                     Pages
                     <i className="las la-angle-down" />
                   </a>
-                  <ul>
+                  <ul style={{background:'skyblue',color:"black"}}> 
                     <li>
                       <Link href="services">Service</Link>
                     </li>
@@ -167,10 +167,7 @@ const Header = () => {
           <ul>
             <li className="has-children">
               <Link href="/">Home</Link>
-              <i
-                className="las la-angle-down"
-                onClick={() => activeMenuSet("home")}
-              />
+              
               
             </li>
             <li>
@@ -220,10 +217,7 @@ const Header = () => {
             </li>
             <li className="has-children">
               <a href="blog-grid">Blog</a>
-              <i
-                className="las la-angle-down"
-                onClick={() => activeMenuSet("Blog")}
-              />
+             
              
             </li>
             <li>
@@ -269,7 +263,7 @@ const Header = () => {
               {/* location */}
               <div className="kf-h-group">
                 <i className="fas fa-map-marker-alt" /> <em>Location :</em> 55
-                Elburgon, Molo
+                Dadira,7km off bumala centre
               </div>
             </div>
           </div>

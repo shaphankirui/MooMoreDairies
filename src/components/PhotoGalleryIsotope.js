@@ -106,16 +106,16 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/ins_gal1.jpg" className="has-popup-gallery">
-                  <img src="images/ins_gal1.jpg" alt="image" />
+                <a href="images/pick2.jpg" className="has-popup-gallery">
+                  <img src="images/pick2.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">italian burger</div>
+                  <div className="value">Barns and Shelters</div>
                 </div>
                 <div className="subname">
-                  <div className="value">fast food</div>
+                  <div className="value">Infrastructure</div>
                 </div>
               </div>
             </div>
@@ -126,16 +126,16 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/ins_gal2.jpg" className="has-popup-gallery">
-                  <img src="images/ins_gal2.jpg" alt="image" />
+                <a href="images/pic1.jpg" className="has-popup-gallery">
+                  <img src="images/pic1.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">italian pasta</div>
+                  <div className="value">Fresian</div>
                 </div>
                 <div className="subname">
-                  <div className="value">dinner menu</div>
+                  <div className="value">Breed</div>
                 </div>
               </div>
             </div>
@@ -146,16 +146,16 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/ins_gal3.jpg" className="has-popup-gallery">
-                  <img src="images/ins_gal3.jpg" alt="image" />
+                <a href="images/pic3.jpg" className="has-popup-gallery">
+                  <img src="images/pic3.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">Chicken burger</div>
+                  <div className="value">Barns and Shelters</div>
                 </div>
                 <div className="subname">
-                  <div className="value">fast food</div>
+                  <div className="value">Infrastructure</div>
                 </div>
               </div>
             </div>
@@ -166,16 +166,16 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/ins_gal4.jpg" className="has-popup-gallery">
-                  <img src="images/ins_gal4.jpg" alt="image" />
+                <a href="images/calf2.jpg" className="has-popup-gallery">
+                  <img src="images/calf2.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">italian pizza</div>
+                  <div className="value">Calf Rearing Area</div>
                 </div>
                 <div className="subname">
-                  <div className="value">special pizza</div>
+                  <div className="value">Infrastructure</div>
                 </div>
               </div>
             </div>
@@ -186,16 +186,16 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/ins_gal5.jpg" className="has-popup-gallery">
-                  <img src="images/ins_gal5.jpg" alt="image" />
+                <a href="images/calf1.jpg" className="has-popup-gallery">
+                  <img src="images/calf1.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">cappuccino</div>
+                  <div className="value">Calf</div>
                 </div>
                 <div className="subname">
-                  <div className="value">hot coffee</div>
+                  <div className="value">Breed</div>
                 </div>
               </div>
             </div>
@@ -206,16 +206,16 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/ins_gal6.jpg" className="has-popup-gallery">
-                  <img src="images/ins_gal6.jpg" alt="image" />
+                <a href="images/hero2.jpg" className="has-popup-gallery">
+                  <img src="images/hero2.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">Chicken nuggets</div>
+                  <div className="value">Feeding</div>
                 </div>
                 <div className="subname">
-                  <div className="value">fast food</div>
+                  <div className="value">Animals</div>
                 </div>
               </div>
             </div>
@@ -226,16 +226,16 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/grid_gal1.jpg" className="has-popup-gallery">
-                  <img src="images/grid_gal1.jpg" alt="image" />
+                <a href="images/hero3.jpg" className="has-popup-gallery">
+                  <img src="images/hero3.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">Black coffee</div>
+                  <div className="value">Resting </div>
                 </div>
                 <div className="subname">
-                  <div className="value">hot coffee</div>
+                  <div className="value">Cattles</div>
                 </div>
               </div>
             </div>
@@ -246,16 +246,16 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/menu_r4.jpg" className="has-popup-gallery">
-                  <img src="images/menu_r4.jpg" alt="image" />
+                <a href="images/hero4.jpg" className="has-popup-gallery">
+                  <img src="images/hero4.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">Spaghetti</div>
+                  <div className="value">Feeds</div>
                 </div>
                 <div className="subname">
-                  <div className="value">dinner menu</div>
+                  <div className="value">Feeding Animals</div>
                 </div>
               </div>
             </div>
@@ -266,16 +266,16 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/menu_r6.jpg" className="has-popup-gallery">
-                  <img src="images/menu_r6.jpg" alt="image" />
+                <a href="images/hero5.jpg" className="has-popup-gallery">
+                  <img src="images/hero3.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">Sea Fish</div>
+                  <div className="value">Shelter</div>
                 </div>
                 <div className="subname">
-                  <div className="value">dinner menu</div>
+                  <div className="value">Infrastructure</div>
                 </div>
               </div>
             </div>
