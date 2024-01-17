@@ -20,7 +20,7 @@
 	font-size: 16px;
 	text-transform: uppercase;
 	letter-spacing: 0.03em;
-	color: #b99272;
+	color: #FFFFFF;
 	&.with-icon {
 		&:before {
 			content: '';
@@ -39,7 +39,7 @@
 	margin: 0 0 70px 0;
 	font-size: 42px;
 	font-family: "Oswald";
-	color: #fff;
+	color: black;
 	font-weight: 400;
 }
 
@@ -47,7 +47,7 @@
 	margin: 20px 0;
 	font-size: 70px;
 	font-family: $base_font2_family;
-	color: #fff;
+	color: black;
 	font-weight: 400;
 }
 

@@ -25,7 +25,7 @@ const Index2 = () => {
                 <div className="container">
                   <div className="description align-left element-anim-1">
                     <div className="subtitles">Welcome to the MOO AND MORE DAIRY FARM LIMITED</div>
-                    <h2 className="name text-anim-1" data-splitting="chars">
+                    <h2 className="name text-anim-1" data-splitting="chars" style={{color: "white"}}>
                     Explore our farm-fresh  <br />
                     Dairy products for a taste of pure goodness!
                     </h2>
@@ -47,7 +47,7 @@ const Index2 = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/started_img5.jpg)" }}
+                  style={{ backgroundImage: "url(images/hero5.jpg)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
@@ -74,7 +74,7 @@ const Index2 = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/started_img6.jpg)" }}
+                  style={{ backgroundImage: "url(images/hero4.jpg)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
@@ -105,7 +105,7 @@ const Index2 = () => {
       {/* Section Category */}
       <section
         className="section kf-category"
-        style={{ backgroundImage: "url(images/category_bg.jpg)" }}
+        style={{ backgroundImage: "url(images/bg.jpeg)" }}
       >
         <div className="container">
           <div className="row">
@@ -117,7 +117,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="images/category1.jpg" alt="image" />
+                      <img src="images/pic1.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -127,31 +127,31 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="images/category2.jpg" alt="image" />
+                      <img src="images/pick2.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
-                    <h5 className="name">AYRSHIRE</h5>
+                    <h5 className="name">Barns and Shelters</h5>
                   </div>
                 </div>
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="images/category3.jpg" alt="image" />
+                      <img src="images/milkingPalor.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
-                    <h5 className="name">JERSEY</h5>
+                    <h5 className="name">Milking Parlor </h5>
                   </div>
                 </div>
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="images/ins_gal1.jpg" alt="image" />
+                      <img src="images/calf1.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
-                    <h5 className="name">GUERNSEY</h5>
+                    <h5 className="name">Calf Rearing Area</h5>
                   </div>
                 </div>
               </div>
@@ -160,28 +160,26 @@ const Index2 = () => {
               <div className="kf-titles">
                 <div
                   className="kf-subtitle element-anim-1 scroll-animate"
-                  data-animate="active"
+                  data-animate="active" style={{color: "white"}}
                 >
-                  Our Breeds
+                  Services
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
-                  data-animate="active"
+                  data-animate="active" style={{color: "black"}}
                 >
                   Our  <br />
-                  Cattles Breeds
+                  Barns and Shelters
                 </h3>
               </div>
               <div
                 className="kf-text element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error accusantium
-                  doloremque laudantium, totam rem aperiam eaque ipsa quae
-                  abillo inventore veritatis quasi architecto beatae vitae dicta
-                  sunt explicabo. Nemo enim ipsluptatem quia voluptas sit
-                  aspernatur aut odit aut fugit sed quia con
+                <p style={{color: "#FFFFFF"}}> 
+                Well-designed barns provide comfortable housing for the dairy cattle, with proper 
+                ventilation and natural lighting.
+                 The barns are equipped with state-of-the-art technology for climate control.
                 </p>
               </div>
               <Link
@@ -189,7 +187,7 @@ const Index2 = () => {
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>explore more Breeds</span>
+                <span>explore more Services</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>
@@ -203,19 +201,21 @@ const Index2 = () => {
             <div
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
+              style={{color: "#FFFFFF"}}
             >
               Choose our products
             </div>
             <h3
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
+              style={{color: "black"}}
             >
               Moo and More  Products
             </h3>
           </div>
           <div
             className="kf-menu-items"
-            style={{ backgroundImage: "url(images/menu_logo.png)" }}
+            style={{ backgroundImage: "url(images/milkp.png)" }}
           >
             <div className="row">
               
@@ -224,7 +224,7 @@ const Index2 = () => {
                   className="kf-menu-item element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  <div>
+                  <div style={{color: "black"}}>
                     <h5 className="name">Fresh Milk</h5>
                     <div className="subname">Per 1 litre</div>
                     <div className="price">
@@ -332,12 +332,14 @@ const Index2 = () => {
             <div
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
+              style={{color: "#FFFFFF"}}
             >
               Experience Team Member
             </div>
             <h3
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
+              style={{color: "black"}}
             >
               Meet Our Team Members
             </h3>

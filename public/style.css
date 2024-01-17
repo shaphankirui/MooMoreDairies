@@ -1924,7 +1924,7 @@ button.mfp-close:before, button.mfp-arrow:before {
 }
 
 .section-bg {
-  background-color: #090c0f;
+  background-color: skyblue;
 }
 
 /**
@@ -2311,7 +2311,7 @@ button.mfp-close:before, button.mfp-arrow:before {
 
 .kf-menu-items {
   padding: 35px 45px;
-  background-color: #090c0f;
+  background-color: skyblue;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 465px auto;
@@ -2355,10 +2355,12 @@ button.mfp-close:before, button.mfp-arrow:before {
 
 .kf-menu-item .name {
   margin: 0 0 10px 0;
+  color: black;
 }
 
 .kf-menu-item .subname {
   margin-bottom: 10px;
+  color: black;
 }
 
 .kf-menu-item .price {
@@ -2366,7 +2368,7 @@ button.mfp-close:before, button.mfp-arrow:before {
   padding-left: 150px;
   font-size: 24px;
   font-family: "Merienda";
-  color: #b99272;
+  color: #0E1317;
 }
 
 .kf-menu-item .price:before {
@@ -5273,11 +5275,11 @@ small {
 .kf-category-item .image {
   position: relative;
   overflow: hidden;
-  left: 0;
-  top: 0;
   width: 100%;
   height: 287px;
+  mask-image: linear-gradient(transparent 10%, black 10%, black 90%, transparent 90%);
 }
+
 
 .kf-category-item .image img {
   position: absolute;
