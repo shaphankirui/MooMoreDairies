@@ -20,7 +20,7 @@ const Index2 = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/started_img7.jpg)" }}
+                  style={{ backgroundImage: "url(images/heroPage.jpg)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
