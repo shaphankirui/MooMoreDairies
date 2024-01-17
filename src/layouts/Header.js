@@ -67,7 +67,7 @@ const Header = () => {
           <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             {/* logo */}
             <div className="kf-logo" style={{ display: 'flex', flexDirection: 'row' }}>
-              <Link href="index-2">
+              <Link href="/">
                 <img src="images/logo.png" alt="image"  />
               </Link>
               <div className="company-name" style={{ marginLeft: '10px' }}>
@@ -82,7 +82,7 @@ const Header = () => {
             <div className="kf-main-menu">
               <ul>
                 <li>
-                  <Link href="index-2">
+                  <Link href="/">
                     Home
                     {/* <i className="las la-angle-down" /> */}
                   </Link>
@@ -166,7 +166,7 @@ const Header = () => {
         <div className="kf-main-menu">
           <ul>
             <li className="has-children">
-              <Link href="index-2">Home</Link>
+              <Link href="/">Home</Link>
               <i
                 className="las la-angle-down"
                 onClick={() => activeMenuSet("home")}
