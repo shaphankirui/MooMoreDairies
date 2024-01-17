@@ -66,11 +66,16 @@ const Header = () => {
         <div className="row">
           <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             {/* logo */}
-            <div className="kf-logo">
+            <div className="kf-logo" style={{ display: 'flex', flexDirection: 'row' }}>
               <Link href="index-2">
-                <img src="images/logo.png" alt="image" />
+                <img src="images/logo.png" alt="image"  />
               </Link>
+              <div className="company-name" style={{ marginLeft: '10px' }}>
+                Moo and More Dairy Farm 
+              </div>
             </div>
+
+
           </div>
           <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 align-center">
             {/* main menu */}

@@ -1189,7 +1189,7 @@ button.mfp-close:before {
 
 .kf-logo {
   position: relative;
-  width: 118px;
+  width: auto;
   font-size: 0;
 }
 
@@ -1198,7 +1198,12 @@ button.mfp-close:before {
   width: auto;
   max-height: 40px;
 }
-
+.company-name {
+  font-size: 18px; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin-top: 8px; /* Optional margin for separation */
+  color: white;
+}
 .kf-search {
   margin-left: 50px;
   position: relative;
