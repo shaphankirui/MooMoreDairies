@@ -56,7 +56,7 @@ const Header = () => {
             {/* location */}
             <div className="kf-h-group">
               <i className="fas fa-map-marker-alt" /> <em>Location :</em>
-              Elburgon, Molo
+              Dadira, 7km off bumala centre.
             </div>
           </div>
         </div>
