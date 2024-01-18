@@ -549,11 +549,11 @@ const Index2 = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="images/service_icon1.png" alt="image" />
-                    </div>
+                    <i class="las la-cheese"></i>  
+                                      </div>
                     <div className="desc">
-                      <h5 className="name">Milking Cattles</h5>
-                      <div className="subname">Sed ut perspiciatis unde</div>
+                      <h5 className="name">Dairy Produces</h5>
+                      <div className="subname">We produce over 100 litres of milk each day</div>
                     </div>
                   </div>
                 </div>
@@ -566,8 +566,8 @@ const Index2 = () => {
                       <img src="images/service_icon2.png" alt="image" />
                     </div>
                     <div className="desc">
-                      <h5 className="name">Bulls</h5>
-                      <div className="subname">Sed ut perspiciatis unde</div>
+                      <h5 className="name">Breeding</h5>
+                      <div className="subname">Artificial Inseminations</div>
                     </div>
                   </div>
                 </div>
@@ -581,7 +581,7 @@ const Index2 = () => {
                     </div>
                     <div className="desc">
                       <h5 className="name">Proffesional Team</h5>
-                      <div className="subname">Sed ut perspiciatis unde</div>
+                      <div className="subname">Well Trained Team Members </div>
                     </div>
                   </div>
                 </div>
@@ -594,8 +594,8 @@ const Index2 = () => {
                       <img src="images/service_icon4.png" alt="image" />
                     </div>
                     <div className="desc">
-                      <h5 className="name">Mursik</h5>
-                      <div className="subname">Sed ut perspiciatis unde</div>
+                      <h5 className="name">Local Farmers Training</h5>
+                      <div className="subname">We do train Local Farmers more on dairy farming</div>
                     </div>
                   </div>
                 </div>
