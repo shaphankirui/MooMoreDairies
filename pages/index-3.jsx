@@ -148,7 +148,7 @@ const Index = () => {
           </div>
           <div
             className="kf-menu-items"
-            style={{ backgroundImage: "url(images/menu_logo.png)" }}
+            style={{ backgroundImage: "url(images/menu_logo1.jpg)" }}
           >
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
