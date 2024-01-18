@@ -167,11 +167,11 @@ const Contacts = () => {
               >
                 <div className="image">
                   {/*<img src="images/contact_icon3.png" alt="" />*/}
-                  <a href="https://wa.me/1234567890" target="_blank">
+                  <a href="https://wa.me/+254 711 320959" target="_blank">
                     <i className="fab fa-whatsapp" />
                   </a>  
                                 </div>
-                <div  href="https://wa.me/1234567890"  className="desc">
+                <div  href="https://wa.me/+254 711 320959"  className="desc">
                   <h5 className="name">WhatsApp</h5>
                   <ul>
                     <li>
