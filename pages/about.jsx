@@ -10,7 +10,7 @@ const About = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/history_inner_bg.jpg)" }}
+          style={{ backgroundImage: "url(images/blog4.jpg)" }}
         />
         <div className="container">
           <h1
@@ -115,12 +115,12 @@ const About = () => {
                 data-animate="active"
               >
                 <div className="icon">
-                  <i className="las la-gem" />
+                <i class="las la-piggy-bank"></i>
                 </div>
                 <div className="num">56+</div>
                 <div className="desc">
                   <h5 className="name">Animals</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+                  <div style={{color:'black'}} className="subname">Dairy Animals</div>
                 </div>
               </div>
             </div>
@@ -135,7 +135,7 @@ const About = () => {
                 <div className="num">16+</div>
                 <div className="desc">
                   <h5 className="name">Professional Workers</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+                  <div style={{color:'black'}} className="subname">Well Trained and Professional</div>
                 </div>
               </div>
             </div>
@@ -145,12 +145,12 @@ const About = () => {
                 data-animate="active"
               >
                 <div className="icon">
-                  <i className="las la-trophy" />
+                <i class="las la-users"></i>
                 </div>
                 <div className="num">3+</div>
                 <div className="desc">
                   <h5 className="name">Investors</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+                  <div style={{color:'black'}} className="subname">Working with us for Local Training program</div>
                 </div>
               </div>
             </div>
@@ -160,12 +160,12 @@ const About = () => {
                 data-animate="active"
               >
                 <div className="icon">
-                  <i className="lar la-grin-stars" />
+                <i class="lab la-product-hunt"></i>
                 </div>
                 <div className="num">100+</div>
                 <div className="desc">
                   <h5 className="name">Litres produced Per day</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+                  <div style={{color:'black'}} className="subname">Serves the community and Outiside Market</div>
                 </div>
               </div>
             </div>

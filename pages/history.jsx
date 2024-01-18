@@ -28,7 +28,7 @@ const History = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/history_inner_bg.jpg)" }}
+          style={{ backgroundImage: "url(images/blog10.jpg)" }}
         />
         <div className="container">
           <h1
@@ -59,11 +59,9 @@ const History = () => {
             className="kf-quote-box element-anim-1 scroll-animate"
             data-animate="active"
           >
-            <div className="text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam eaque ipsa
-              quae ab illo inventore veritatis et voluptatem sequi nesciunt
-              neque porro quisqe
+            <div style={{color: "black"}} className="text">
+            Moo & More dairy farm is a family-run farm. The family have a deep-rooted passion for dairy farming, and their 
+            commitment to sustainable and ethical practices is evident in every aspect of the farm.
             </div>
             <div className="info">
               <div className="img">
@@ -82,12 +80,15 @@ const History = () => {
             <div
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
+              style={{color: "#FFFFFF"}}
+
             >
               Our farm History
             </div>
             <h3
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
+              style={{color: "black"}}
             >
               Something Know About Our History
             </h3>
@@ -121,9 +122,9 @@ const History = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="date">1996</div>
-                    <div className="label">25 January 1996</div>
-                    <div className="date-value">1996</div>
+                    <div style={{color: "black"}} className="date">1996</div>
+                    <div style={{color: "black"}} className="label">25 January 1996</div>
+                    <div style={{color: "black"}} className="date-value">1996</div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
@@ -150,9 +151,9 @@ const History = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="date">1998</div>
-                    <div className="label">14 December 1998</div>
-                    <div className="date-value">1998</div>
+                    <div style={{color: "black"}} className="date">1998</div>
+                    <div style={{color: "black"}} className="label">14 December 1998</div>
+                    <div style={{color: "black"}} className="date-value">1998</div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
@@ -179,9 +180,9 @@ const History = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="date">2004</div>
-                    <div className="label">10 June 2004</div>
-                    <div className="date-value">2004</div>
+                    <div style={{color: "black"}} className="date">2004</div>
+                    <div style={{color: "black"}} className="label">10 June 2004</div>
+                    <div style={{color: "black"}} className="date-value">2004</div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
@@ -210,9 +211,9 @@ const History = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="date">2008</div>
-                    <div className="label">15 October 2008</div>
-                    <div className="date-value">2008</div>
+                    <div style={{color: "black"}} className="date">2008</div>
+                    <div  style={{color: "black"}} className="label">15 October 2008</div>
+                    <div style={{color: "black"}} className="date-value">2009</div>
                   </div>
                 </SwiperSlide>
               </div>
@@ -229,7 +230,7 @@ const History = () => {
         </div>
       </section>
       {/* Section Brands */}
-      <div className="section kf-brands">
+      {/* <div className="section kf-brands">
         <div className="container">
           <div className="kf-brands-items row">
             <div className="col-xs-12 col-sm-12 col-md-3 col-lg-2">
@@ -294,7 +295,7 @@ const History = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Section Latest Blog */}
       <section className="section kf-latest-blog section-bg">
         <div className="container">

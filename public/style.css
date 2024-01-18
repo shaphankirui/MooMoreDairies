@@ -3983,7 +3983,7 @@ button.mfp-close:before, button.mfp-arrow:before {
   text-align: center;
   font-size: 24px;
   font-family: "Oswald";
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   -webkit-transform-origin: 0 0;
       -ms-transform-origin: 0 0;

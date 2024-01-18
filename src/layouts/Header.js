@@ -38,9 +38,9 @@ const Header = () => {
           <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 align-center">
             {/* social */}
             <div className="kf-h-social">
-              <a href="facebook.com" target="blank">
-                <i className="fab fa-facebook-f" />
-              </a>
+            <a href="https://www.facebook.com/MooMoreDairyFarm" target="_blank">
+  <i className="fab fa-facebook-f" />
+</a>
               <a href="twitter.com" target="blank">
                 <i className="fab fa-twitter" />
               </a>

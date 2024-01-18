@@ -20,7 +20,7 @@ const Index2 = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/heroPage.jpg)" }}
+                  style={{ backgroundImage: "url(images/blog8.jpg)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
@@ -47,7 +47,7 @@ const Index2 = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/hero5.jpg)" }}
+                  style={{ backgroundImage: "url(images/blog1.avif)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
@@ -74,7 +74,7 @@ const Index2 = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/hero4.jpg)" }}
+                  style={{ backgroundImage: "url(images/blog3.jpg)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
@@ -137,7 +137,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="images/milkingPalor.jpg" alt="image" />
+                      <img src="images/blog7.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -147,7 +147,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="images/calf1.jpg" alt="image" />
+                      <img src="images/calf5.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -521,7 +521,7 @@ const Index2 = () => {
                     data-animate="active"
                   >
                     <div className="icon">
-                      <img src="images/choose_icon2.png" alt="image" />
+                      <img src="images/dairy_icon.jpg" alt="image" />
                     </div>
                     <div className="desc">
                       <h5 className="name">100% Certified Dairy Farm</h5>
@@ -563,7 +563,7 @@ const Index2 = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="images/service_icon2.png" alt="image" />
+                    <i class="las la-chess"></i>
                     </div>
                     <div className="desc">
                       <h5 className="name">Breeding</h5>
@@ -577,8 +577,8 @@ const Index2 = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="images/service_icon3.png" alt="image" />
-                    </div>
+                    <i class="las la-user-friends"></i>           
+                             </div>
                     <div className="desc">
                       <h5 className="name">Proffesional Team</h5>
                       <div className="subname">Well Trained Team Members </div>
@@ -591,7 +591,7 @@ const Index2 = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="images/service_icon4.png" alt="image" />
+                    <i class="las la-tractor"></i>
                     </div>
                     <div className="desc">
                       <h5 className="name">Local Farmers Training</h5>
@@ -607,12 +607,12 @@ const Index2 = () => {
       {/* Section Testimonials Carousel */}
       <TestimonialsCarousel />
       {/* Section Video */}
-      <div className="section kf-video kf-video-full">
+      {/* <div className="section kf-video kf-video-full">
         <VideoPlayer
           videoBg={"images/video_bg.jpg"}
           extraClass={"kf-parallax"}
         />
-      </div>
+      </div> */}
       {/* Section Numbers-2 */}
       <section className="section kf-numbers-2 section-bg">
         <div className="container">
@@ -623,12 +623,12 @@ const Index2 = () => {
                 data-animate="active"
               >
                 <div className="icon">
-                  <i className="las la-gem" />
+                <i class="las la-piggy-bank"></i>
                 </div>
                 <div className="num">56+</div>
                 <div className="desc">
                   <h5 className="name">Animals</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+                  <div style={{color:'black'}} className="subname">Dairy Animals</div>
                 </div>
               </div>
             </div>
@@ -643,7 +643,7 @@ const Index2 = () => {
                 <div className="num">16+</div>
                 <div className="desc">
                   <h5 className="name">Professional Workers</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+                  <div style={{color:'black'}} className="subname">Well Trained and Professional</div>
                 </div>
               </div>
             </div>
@@ -653,12 +653,12 @@ const Index2 = () => {
                 data-animate="active"
               >
                 <div className="icon">
-                  <i className="las la-trophy" />
+                <i class="las la-users"></i>
                 </div>
                 <div className="num">3+</div>
                 <div className="desc">
                   <h5 className="name">Investors</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+                  <div style={{color:'black'}} className="subname">Working with us for Local Training program</div>
                 </div>
               </div>
             </div>
@@ -668,12 +668,12 @@ const Index2 = () => {
                 data-animate="active"
               >
                 <div className="icon">
-                  <i className="lar la-grin-stars" />
+                <i class="lab la-product-hunt"></i>
                 </div>
                 <div className="num">100+</div>
                 <div className="desc">
                   <h5 className="name">Litres produced Per day</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
+                  <div style={{color:'black'}} className="subname">Serves the community and Outiside Market</div>
                 </div>
               </div>
             </div>
@@ -684,7 +684,7 @@ const Index2 = () => {
 
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
+        style={{ backgroundImage: "url(images/hero3.jpg)" }}
       >
         <div className="container">
           <div className="row">
@@ -700,7 +700,7 @@ const Index2 = () => {
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking a visit For Your &amp; Team Members
+                  Booking a visit For You &amp; Team Members
                 </h3>
               </div>
             </div>
@@ -742,7 +742,7 @@ const Index2 = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog1.jpg" alt="image" />
+                    <img src="images/blog1.avif" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -767,7 +767,7 @@ const Index2 = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog2.jpg" alt="image" />
+                    <img src="images/blog2.avif" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -792,7 +792,7 @@ const Index2 = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog3.jpg" alt="image" />
+                    <img src="images/blog3.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -825,7 +825,7 @@ const Index2 = () => {
       {/* Section Insta Carousel */}
       <InstaCarousel />
       {/* Section Brands */}
-      <div className="section kf-brands">
+      {/* <div className="section kf-brands">
         <div className="container">
           <div className="kf-brands-items row">
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
@@ -890,7 +890,7 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layouts>
   );
 };
