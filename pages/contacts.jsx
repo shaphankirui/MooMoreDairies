@@ -1,7 +1,43 @@
 import InstaCarousel from "@/src/components/sliders/InstaCarousel";
 import Layouts from "@/src/layouts/Layouts";
+import { useEffect } from 'react';
+
+
+
 
 const Contacts = () => {
+  useEffect(() => {
+    // Load the Google Maps script
+    const script = document.createElement('script');
+    script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap`;
+    script.async = true;
+    script.defer = true;
+    document.head.appendChild(script);
+
+    // Clean up the script when the component is unmounted
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
+
+  // Function to initialize the Google Map
+  const initMap = () => {
+    // Coordinates for Kisumu, Kenya
+    const kisumuLocation = { lat: -0.1000, lng: 34.7500 };
+
+    // Create a map centered at Kisumu
+    const map = new window.google.maps.Map(document.getElementById('map'), {
+      zoom: 12,
+      center: kisumuLocation,
+    });
+
+    // Add a marker for the Kisumu location
+    const marker = new window.google.maps.Marker({
+      position: kisumuLocation,
+      map: map,
+      title: 'Kisumu, Kenya',
+    });
+  };
   return (
     <Layouts>
       {/* Section Started Inner */}
@@ -9,7 +45,7 @@ const Contacts = () => {
         <div
           className="kf-parallax-bg js-parallax"
           style={{
-            backgroundImage: "url(images/menu_reservation_inner_bg.jpg)",
+            backgroundImage: "url(images/blog4.jpg)",
           }}
         />
         <div className="container">
@@ -39,12 +75,12 @@ const Contacts = () => {
                   <h5 className="name">Main Location</h5>
                   <ul>
                     <li>
-                      Elburgon. Molo, <br />
-                      Nakuru County
+                      EDadira, <br />
+                     7km off bumala centre 
                     </li>
                     <li>
-                      Elburgon <br />
-                      sub Counry 
+                    on Kisumu-Busia <br />
+                    highway 
                     </li>
                   </ul>
                 </div>
@@ -81,14 +117,92 @@ const Contacts = () => {
               >
                 <div className="image">
                   {/*<img src="images/contact_icon3.png" alt="" />*/}
+                  <a href="https://www.facebook.com/MooMoreDairyFarm" target="_blank">
+                    <i className="fab fa-facebook-f" />
+                  </a>
+                </div>
+                <div className="desc">
+                  <h5 className="name">Facebook</h5>
+                  <ul>
+                    <li>
+                    MooMore <br />
+                    </li>
+                    <li>
+                    Dairy Farm <br />
+                     
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
+              <div
+                className="kf-contacts-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image">
+                  {/*<img src="images/contact_icon3.png" alt="" />*/}
+                  <a href="https://twitter.com/YourTwitterHandle" target="_blank">
+                    <i className="fab fa-twitter" />
+                  </a>                </div>
+                <div className="desc">
+                  <h5 className="name">X(formally Twitter)</h5>
+                  <ul>
+                    <li>
+                    MooMore <br />
+                      
+                    </li>
+                    <li>
+                       Dairy Farm <br />
+                      
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div  className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
+              <div
+                className="kf-contacts-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image">
+                  {/*<img src="images/contact_icon3.png" alt="" />*/}
+                  <a href="https://wa.me/1234567890" target="_blank">
+                    <i className="fab fa-whatsapp" />
+                  </a>  
+                                </div>
+                <div  href="https://wa.me/1234567890"  className="desc">
+                  <h5 className="name">WhatsApp</h5>
+                  <ul>
+                    <li>
+                    +254 711 320959 <br />
+                      123456780
+                    </li>
+                    <li>
+                      +25446914399 <br />
+                      123456780
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div href="tel: +254 711 320959" className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
+              <div
+                className="kf-contacts-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="image">
+                  {/*<img src="images/contact_icon3.png" alt="" />*/}
+                  <a href="tel: +254 711 320959">
                   <i className="las la-headset" />
+                  </a>
                 </div>
                 <div className="desc">
                   <h5 className="name">Phone Number</h5>
                   <ul>
-                    <li>
-                      +254795349039 <br />
-                      123456780
+                    <li href="tel: +254 711 320959">
+                    +254 711 320959 <br />
+                      
                     </li>
                     <li>
                       +25446914399 <br />
@@ -170,10 +284,17 @@ const Contacts = () => {
           </div>
         </div>
       </section>
+
+       {/* Section Google Map */}
+       {/* <section className="section kf-google-map">
+        <div className="container">
+          <div id="map" style={{ height: '400px' }} />
+        </div>
+      </section> */}
       {/* Section Insta Carousel */}
-      <InstaCarousel />
+      {/* <InstaCarousel /> */}
       {/* Section Brands */}
-      <div className="section kf-brands">
+      {/* <div className="section kf-brands">
         <div className="container">
           <div className="kf-brands-items row">
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
@@ -182,7 +303,7 @@ const Contacts = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand1.png" alt="image" />
+                <i class="lab la-facebook"></i>      
                 </div>
               </div>
             </div>
@@ -232,14 +353,16 @@ const Contacts = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand6.png" alt="image" />
-                </div>
+                <i class="lab la-facebook"></i>      
+                          </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layouts>
   );
+
+  
 };
 export default Contacts;

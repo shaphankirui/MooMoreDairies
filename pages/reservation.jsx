@@ -100,7 +100,7 @@ const Reservation = () => {
         </div>
       </section>
       {/* Section Insta Carousel */}
-      <InstaCarousel />
+      {/* <InstaCarousel /> */}
       {/* Section Brands */}
       <div className="section kf-brands">
         <div className="container">

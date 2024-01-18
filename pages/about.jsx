@@ -73,7 +73,7 @@ const About = () => {
                     data-animate="active"
                   >
                     <div className="icon">
-                      <img src="images/choose_icon2.png" alt="image" />
+                      <img src="images/dairy_icon.jpg" alt="image" />
                     </div>
                     <div className="desc">
                       <h5 className="name">100%  Certified Dairy Farm</h5>
@@ -99,7 +99,7 @@ const About = () => {
                 className="kf-choose-image element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <img src="images/about_img2.jpg" alt="image" />
+                <img src="images/bog5.jpg" alt="image" />
               </div>
             </div>
           </div>
@@ -173,14 +173,14 @@ const About = () => {
         </div>
       </section>
       {/* Section Video */}
-      <section className="section kf-video">
+      {/* <section className="section kf-video">
         <div className="container">
           <VideoPlayer
             videoBg={"images/video_bg.jpg"}
             extraClass={"kf-image-hover"}
           />
         </div>
-      </section>
+      </section> */}
       
       {/* Section Team */}
       <section className="section kf-team kf-section-transparent">
@@ -336,7 +336,7 @@ const About = () => {
         </div>
       </section>
       {/* Section Brands */}
-      <section className="section kf-brands">
+      {/* <section className="section kf-brands">
         <div className="container">
           <div className="kf-brands-items row">
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
@@ -401,13 +401,13 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Testimonials Carousel */}
       <TestimonialsCarousel />
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
+        style={{ backgroundImage: "url(images/hero3.jpg)" }}
       >
         <div className="container">
           <div className="row">
@@ -417,13 +417,13 @@ const About = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Need a visit   On Our Farm
+                  Need a free Visit?
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking a Visit For Your &amp; Team Members
+                  Booking a visit For You &amp; Team Members
                 </h3>
               </div>
             </div>

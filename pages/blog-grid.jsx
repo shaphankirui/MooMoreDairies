@@ -8,7 +8,7 @@ const BlogGrid = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/blog_inner_bg.jpg)" }}
+          style={{ backgroundImage: "url(images/hero3.jpg)" }}
         />
         <div className="container">
           <h1
@@ -45,7 +45,7 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog1.jpg" alt="image" />
+                    <img src="images/blog1.avif" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -70,7 +70,7 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog2.jpg" alt="image" />
+                    <img src="images/blog2.avif" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -95,7 +95,7 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog3.jpg" alt="image" />
+                    <img src="images/blog3.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -120,7 +120,7 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/history1.jpg" alt="image" />
+                    <img src="images/blog4.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -145,7 +145,7 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/history2.jpg" alt="image" />
+                    <img src="images/bog5.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -170,7 +170,7 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/history3.jpg" alt="image" />
+                    <img src="images/blog8.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">

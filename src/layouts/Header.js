@@ -126,9 +126,9 @@ const Header = () => {
                     <li>
                       <Link href="gallery">Gallery</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="faq">FAQ</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li>
@@ -210,9 +210,9 @@ const Header = () => {
                 <li>
                   <Link href="gallery">Gallery</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="faq">FAQ</Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li className="has-children">
@@ -240,7 +240,7 @@ const Header = () => {
               <div className="kf-h-social">
                 <a href="facebook.com" target="blank">
                   <i className="fab fa-facebook-f" />
-                </a>
+                </a> 
                 <a href="twitter.com" target="blank">
                   <i className="fab fa-twitter" />
                 </a>

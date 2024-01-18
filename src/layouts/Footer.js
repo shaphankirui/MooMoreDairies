@@ -47,7 +47,7 @@ const Footer = () => {
                 <li>
                   <i className="las la-map-marker" />
                   <em>Location :</em>
-                  Elbergon, Molo
+                Dadira,7km off bumala centre on Kisumu-Busia highway.
                 </li>
                 <li>
                   <i className="las la-envelope-open-text" />
@@ -57,7 +57,7 @@ const Footer = () => {
                 <li>
                   <i className="las la-phone" />
                   <em>Phone Number :</em>
-                  +254795349039
+                  +254 711 320959
                 </li>
               </ul>
             </div>
@@ -72,50 +72,50 @@ const Footer = () => {
               <ul>
                 <li>
                   <a
-                    href="images/grid_gal1.jpg"
+                    href="images/blog10.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/grid_gal1.jpg" alt="image" />
+                    <img src="images/blog10.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/grid_gal2.jpg"
+                    href="images/blog4.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/grid_gal2.jpg" alt="image" />
+                    <img src="images/blog4.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/grid_gal3.jpg"
+                    href="images/calf5.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/grid_gal3.jpg" alt="image" />
+                    <img src="images/calf5.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/grid_gal4.jpg"
+                    href="images/blog9.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/grid_gal4.jpg" alt="image" />
+                    <img src="images/blog9.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/grid_gal5.jpg"
+                    href="images/blog7.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/grid_gal5.jpg" alt="image" />
+                    <img src="images/blog7.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/grid_gal6.jpg"
+                    href="images/bog5.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/grid_gal1.jpg" alt="image" />
+                    <img src="images/bog5.jpg" alt="image" />
                   </a>
                 </li>
               </ul>

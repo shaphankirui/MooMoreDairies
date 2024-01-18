@@ -12,7 +12,7 @@ const BlogSingle = () => {
               className="kf-date element-anim-1 scroll-animate"
               data-animate="active"
             >
-              25 Sep 2021 - <Link href="blog">Recipes</Link>
+              25 Sep 2021 - <Link href="blog">Blog</Link>
             </div>
             <h1
               className="kf-p-title text-anim-1 scroll-animate"
@@ -26,7 +26,7 @@ const BlogSingle = () => {
         <div
           className="kf-archive-image element-anim-1 scroll-animate"
           data-animate="active"
-          style={{ backgroundImage: "url(images/latest_blog3.jpg)" }}
+          style={{ backgroundImage: "url(images/hero3.jpg)" }}
         />
       </section>
       {/* Section Archive */}

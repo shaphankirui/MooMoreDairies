@@ -302,7 +302,7 @@ const Team = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
+        style={{ backgroundImage: "url(images/hero3.jpg)" }}
       >
         <div className="container">
           <div className="row">
@@ -312,13 +312,13 @@ const Team = () => {
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Need a visit   On Our Farm
+                  Need a free Visit?
                 </div>
                 <h3
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Booking a Visit For Your &amp; Team Members
+                  Booking a visit For You &amp; Team Members
                 </h3>
               </div>
             </div>
@@ -338,7 +338,7 @@ const Team = () => {
       {/* Section Testimonials Carousel */}
       <TestimonialsCarousel />
       {/* Section Brands */}
-      <div className="section kf-brands">
+      {/* <div className="section kf-brands">
         <div className="container">
           <div className="kf-brands-items row">
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
@@ -403,7 +403,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layouts>
   );
 };
