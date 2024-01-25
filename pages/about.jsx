@@ -10,7 +10,7 @@ const About = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/blog4.jpg)" }}
+          style={{ backgroundImage: "url(images/cows4.jpg)" }}
         />
         <div className="container">
           <h1
@@ -31,6 +31,7 @@ const About = () => {
                 <div
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
+                  style={{ color: "black" }}
                 >
                   About Moo and More Dairy Farm
                 </div>
@@ -38,17 +39,18 @@ const About = () => {
                   className="kf-title element-anim-1 scroll-animate"
                   data-animate="active"
                                   >
-                  Established in 2001, Moo and More Dairy Farm began with a passion 
+                  Established in 2023, Moo and More Dairy Farm began with a passion 
                   for sustainable farming and a commitment to delivering quality dairy to our community. 
                </h3>
               </div>
               <div
                 className="kf-text element-anim-1 scroll-animate"
                 data-animate="active"
+                style={{ color: "black" }}
               >
                 <p>
                 Learn more about Moo and More Dairy Farm, a family-owned business dedicated to providing 
-                the finest dairy products since [Year Established].
+                the finest dairy products since 2023.
                 </p>
               </div>
               <div className="kf-choose-list">
@@ -61,10 +63,9 @@ const About = () => {
                       <img src="images/choose_icon1.png" alt="image" />
                     </div>
                     <div className="desc">
-                      <h5 className="name">Natural processed Mala</h5>
-                      <div className="subname">
-                        Sed ut perspiciatis unde omnis iste natus error
-                        voluptate accusantium doloremque
+                      <h5 className="name"     style={{ color: "black" }}>Natural processed Mala</h5>
+                      <div className="subname"     style={{ color: "#FFFFFF" }}>
+                        Get to taste some of the best Natural made Mala ever
                       </div>
                     </div>
                   </li>
@@ -76,10 +77,9 @@ const About = () => {
                       <img src="images/dairy_icon.jpg" alt="image" />
                     </div>
                     <div className="desc">
-                      <h5 className="name">100%  Certified Dairy Farm</h5>
-                      <div className="subname">
-                        Sed ut perspiciatis unde omnis iste natus error
-                        voluptate accusantium doloremque
+                      <h5 className="name"     style={{ color: "black" }}>100%  Certified Dairy Farm</h5>
+                      <div className="subname"     style={{ color: "FFFFFF" }}>
+                        We are certified and Recongnised Dairy Farm in the Region
                       </div>
                     </div>
                   </li>
@@ -89,6 +89,7 @@ const About = () => {
                 href="menu-coffee"
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
+                style={{ color: "black" }}
               >
                 <span>More About Us</span>
                 <i className="fas fa-chevron-right" />
@@ -117,7 +118,7 @@ const About = () => {
                 <div className="icon">
                 <i class="las la-piggy-bank"></i>
                 </div>
-                <div className="num">56+</div>
+                <div className="num">40+</div>
                 <div className="desc">
                   <h5 className="name">Animals</h5>
                   <div style={{color:'black'}} className="subname">Dairy Animals</div>
@@ -407,7 +408,7 @@ const About = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/hero3.jpg)" }}
+        style={{ backgroundImage: "url(images/cow2.jpg)" }}
       >
         <div className="container">
           <div className="row">

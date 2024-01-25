@@ -260,7 +260,7 @@ const Services = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/hero3.jpg)" }}
+        style={{ backgroundImage: "url(images/cows6.jpg)" }}
       >
         <div className="container">
           <div className="row">

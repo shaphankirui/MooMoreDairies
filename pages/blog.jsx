@@ -8,7 +8,7 @@ const Blog = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/blog_inner_bg.jpg)" }}
+          style={{ backgroundImage: "url(images/cows8.jpg)" }}
         />
         <div className="container">
           <h1

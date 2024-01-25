@@ -45,7 +45,7 @@ const Contacts = () => {
         <div
           className="kf-parallax-bg js-parallax"
           style={{
-            backgroundImage: "url(images/blog4.jpg)",
+            backgroundImage: "url(images/cows1.jpg)",
           }}
         />
         <div className="container">
@@ -99,11 +99,11 @@ const Contacts = () => {
                   <h5 className="name">Email Address</h5>
                   <ul>
                     <li>
-                      moomore@gmail.com <br />
+                      moomoredairyfarmlimited@gmail.com <br />
                       www.mooMore.co.ke
                     </li>
                     <li>
-                      supportmoomore@gmail.com <br />
+                      info@moomore.co.ke <br />
                       www.mooMore.co.ke
                     </li>
                   </ul>
@@ -176,12 +176,8 @@ const Contacts = () => {
                   <ul>
                     <li>
                     +254 711 320959 <br />
-                      123456780
                     </li>
-                    <li>
-                      +25446914399 <br />
-                      123456780
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
@@ -204,10 +200,10 @@ const Contacts = () => {
                     +254 711 320959 <br />
                       
                     </li>
-                    <li>
+                    {/* <li>
                       +25446914399 <br />
                       123456780
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

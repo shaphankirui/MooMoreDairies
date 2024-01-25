@@ -20,7 +20,7 @@ const Index2 = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/blog8.jpg)" }}
+                  style={{ backgroundImage: "url(images/cows1.jpg)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
@@ -47,7 +47,7 @@ const Index2 = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/blog1.avif)" }}
+                  style={{ backgroundImage: "url(images/calfs1.jpg)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
@@ -74,7 +74,7 @@ const Index2 = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/blog3.jpg)" }}
+                  style={{ backgroundImage: "url(images/cows8.jpg)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
@@ -117,7 +117,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="images/pic1.jpg" alt="image" />
+                      <img src="images/cows7.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -127,7 +127,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="images/pick2.jpg" alt="image" />
+                      <img src="images/str1.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -147,7 +147,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="images/calf5.jpg" alt="image" />
+                      <img src="images/calfs2.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -352,14 +352,14 @@ const Index2 = () => {
                 style={{ backgroundColor: "skyblue" }}
               >
                 <div className="desc">
-                  <h5 className="name" style={{ color: "black" }}>Anthony Tonui</h5>
-                  <div className="subname" style={{ color: "#FFFFFF" }}>Senior Founder</div>
+                  <h5 className="name" style={{ color: "black" }}>Suzan Njuguna</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}> Founder</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team1.jpg" alt="image" />
                   <div className="info">
-                    <div className="label">bowmankf@gmail.com</div>
-                    <div className="label">+254 (345) 678 99</div>
+                    <div className="label">suzannjuguna@gmail.com</div>
+                    <div className="label">+254 711320959</div>
                   </div>
                   <div className="social">
                     <a href="#">
@@ -385,13 +385,13 @@ const Index2 = () => {
                 style={{ backgroundColor: "skyblue" }}
               >
                 <div className="desc">
-                  <h5 className="name" style={{ color: "black" }}>Anthony Tonui</h5>
-                  <div className="subname" style={{ color: "#FFFFFF" }}>Senior Founder</div>
+                  <h5 className="name" style={{ color: "black" }}> Mr Njuguna</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}> Founder</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="images/team1.jpg" alt="image" />
                   <div className="info">
-                    <div className="label">bowmankf@gmail.com</div>
+                    <div className="label">njuguna@gmail.com</div>
                     <div className="label">+254 (345) 678 99</div>
                   </div>
                   <div className="social">
@@ -493,6 +493,7 @@ const Index2 = () => {
                 <div
                   className="kf-subtitle element-anim-1 scroll-animate"
                   data-animate="active"
+                  style={{ color: "black" }}
                 >
                   About Moo and More Dairies
                 </div>
@@ -625,7 +626,7 @@ const Index2 = () => {
                 <div className="icon">
                 <i class="las la-piggy-bank"></i>
                 </div>
-                <div className="num">56+</div>
+                <div className="num">40+</div>
                 <div className="desc">
                   <h5 className="name">Animals</h5>
                   <div style={{color:'black'}} className="subname">Dairy Animals</div>
