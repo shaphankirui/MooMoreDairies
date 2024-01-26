@@ -28,7 +28,7 @@ const History = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/blog10.jpg)" }}
+          style={{ backgroundImage: "url(images/cows7.jpg)" }}
         />
         <div className="container">
           <h1
@@ -60,14 +60,23 @@ const History = () => {
             data-animate="active"
           >
             <div style={{color: "black"}} className="text">
-            Moo & More dairy farm is a family-run farm. The family have a deep-rooted passion for dairy farming, and their 
-            commitment to sustainable and ethical practices is evident in every aspect of the farm.
+            Moo & More Dairy Farm Limited boasts a rich history as a thriving cattle dairy farm nestled in
+             the picturesque setting of Bumala town, Dadira Village, situated approximately 7 kilometers off the 
+             bustling Kisumu-Busia highway. The farm has undergone remarkable growth and development since its inception, this cattle dairy farm has not only expanded its herd but has diversified its operations, incorporating
+             various sustainable practices to create a holistic and environmentally conscious farming environment.
+             As Moo & More Dairy Farm Limited continues to evolve, it remains deeply rooted in its 
+             commitment to sustainable and environmentally conscious farming practices. The combination of a 
+             growing cattle herd, a commercial biogas system, focused calf rearing, and advanced feeds 
+             management showcases Moo & More's dedication to holistic and forward-thinking agriculture. 
+             The farm envisions a future where responsible farming practices not only support the local
+              community but also contribute to a greener and more sustainable planet.
+
             </div>
             <div className="info">
               <div className="img">
                 <img src="images/quote_img2.jpg" alt="image" />
               </div>
-              <h5 className="name">Dante J. Castaneda</h5>
+              <h5 className="name">Suzan Njuguna</h5>
               <div className="subname">CEO &amp; Founder</div>
             </div>
           </div>
@@ -109,22 +118,22 @@ const History = () => {
                         Moo and More Dairy farm was founded
                       </div>
                       <h5 className="name">
-                        Three Front-End Auditing Tools I Discovered Recently
-                        Useful Front-End Boilerplates
+                      In its genesis in 2023, Moo & More embarked on its journey with a modest beginning,
                       </h5>
                       <div className="kf-text">
                         <p>
-                          Sorem ipsum dolor sit am consectetur adipiscing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore
-                          magna aliqua. Quis ipsum suspendi sultrices gravida.
-                          Risus commodo viverra maecenas cumsan lacus vel
-                          facilisis.
+                       
+                         Starting with a pair of in-calf heifers. Over the years, the farm has demonstrated
+                          impressive growth, currently boasting an extensive herd that approaches 40,
+                           symbolizing a commitment to quality breeding, optimal nutrition, and meticulous
+                            care for the well-being of its cattle.
+
                         </p>
                       </div>
                     </div>
-                    <div style={{color: "black"}} className="date">1996</div>
-                    <div style={{color: "black"}} className="label">25 January 1996</div>
-                    <div style={{color: "black"}} className="date-value">1996</div>
+                    <div style={{color: "black"}} className="date">2023</div>
+                    <div style={{color: "black"}} className="label">25 January 2023</div>
+                    <div style={{color: "black"}} className="date-value">2023</div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
@@ -136,24 +145,24 @@ const History = () => {
                       <img src="images/history2.jpg" alt="image" />
                     </div>
                     <div className="desc">
-                      <div className="subname">We started farming</div>
+                      <div className="subname">Green Horizons:</div>
                       <h5 className="name">
-                        Three Front-End Auditing Tools I Discovered Recently
-                        Useful Front-End Boilerplates
+                       Moo & More Dairy Farm's Pioneering Commitment to Sustainable Agriculture
+                       and Clean Energy
                       </h5>
                       <div className="kf-text">
                         <p>
-                          Sorem ipsum dolor sit am consectetur adipiscing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore
-                          magna aliqua. Quis ipsum suspendi sultrices gravida.
-                          Risus commodo viverra maecenas cumsan lacus vel
-                          facilisis.
+                        One notable aspect that sets Moo & More Dairy Farm apart is its commitment to environmental 
+                        sustainability. The farm has embraced green energy practices with the implementation of a commercial
+                         biogas system. This system not only aids in efficient waste management but also contributes to the
+                          generation of cleaner and greener energy. Moo & More stands as a beacon for eco-friendly
+                         farming, demonstrating that agricultural operations can align with sustainable energy practices.
                         </p>
                       </div>
                     </div>
-                    <div style={{color: "black"}} className="date">1998</div>
-                    <div style={{color: "black"}} className="label">14 December 1998</div>
-                    <div style={{color: "black"}} className="date-value">1998</div>
+                    <div style={{color: "black"}} className="date">2023</div>
+                    <div style={{color: "black"}} className="label">14 March 2023</div>
+                    <div style={{color: "black"}} className="date-value">2023</div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
@@ -165,24 +174,23 @@ const History = () => {
                       <img src="images/history3.jpg" alt="image" />
                     </div>
                     <div className="desc">
-                      <div className="subname">We got a Certification</div>
+                      <div className="subname">Nurturing the Future:</div>
                       <h5 className="name">
-                        Three Front-End Auditing Tools I Discovered Recently
-                        Useful Front-End Boilerplates
+                      Moo & More Dairy Farm's Exemplary Calf
+                       Rearing Practices for a Healthy Herd Tomorrow.
                       </h5>
                       <div className="kf-text">
                         <p>
-                          Sorem ipsum dolor sit am consectetur adipiscing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore
-                          magna aliqua. Quis ipsum suspendi sultrices gravida.
-                          Risus commodo viverra maecenas cumsan lacus vel
-                          facilisis.
+                        Calf rearing is another pivotal facet of Moo & More's operations. The farm places emphasis on the 
+                        nurturing of young calves, implementing best practices in health management, nutrition, and overall
+                         welfare. 
+                        This dedication ensures the development of a robust and healthy future generation within the herd.
                         </p>
                       </div>
                     </div>
-                    <div style={{color: "black"}} className="date">2004</div>
-                    <div style={{color: "black"}} className="label">10 June 2004</div>
-                    <div style={{color: "black"}} className="date-value">2004</div>
+                    <div style={{color: "black"}} className="date">2023</div>
+                    <div style={{color: "black"}} className="label">10 June 2023</div>
+                    <div style={{color: "black"}} className="date-value">2023</div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
@@ -195,25 +203,28 @@ const History = () => {
                     </div>
                     <div className="desc">
                       <div className="subname">
-                        A new branch was opened in Nakuru
+                      Fostering Community Growth:
                       </div>
                       <h5 className="name">
-                        Three Front-End Auditing Tools I Discovered Recently
-                        Useful Front-End Boilerplates
+                      Fostering Community Growth: Moo & More Dairy Farm's Commitment to 
+                      Farmer Training and Collaborative Knowledge Exchange
                       </h5>
                       <div className="kf-text">
                         <p>
-                          Sorem ipsum dolor sit am consectetur adipiscing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore
-                          magna aliqua. Quis ipsum suspendi sultrices gravida.
-                          Risus commodo viverra maecenas cumsan lacus vel
-                          facilisis.
-                        </p>
+                        Furthermore, Moo & More Dairy Farm takes pride in hosting visiting farmers who have 
+                        undergone training. These visits serve as a platform for knowledge sharing, where
+                         trained farmers can exchange experiences, discuss challenges, and seek advice from 
+                         the seasoned experts at Moo & More. The collaborative atmosphere fosters a sense of 
+                              community among farmers, promoting a supportive network that enhances the overall
+                                agricultural landscape.
+      By actively engaging in farmer training and facilitating onsite visits, Moo & More Dairy Farm Limited not only contributes to the skill development of local farmers but also strengthens the bond within the farming community. The farm envisions a future where shared knowledge and sustainable practices create a ripple effect, positively impacting the broader agricultural ecosystem. In this way, Moo & More strives not only to be a leader in dairy farming but also a catalyst for 
+      positive change in the lives of the farmers and the sustainability of agriculture in the region.
+                              </p>
                       </div>
                     </div>
-                    <div style={{color: "black"}} className="date">2008</div>
-                    <div  style={{color: "black"}} className="label">15 October 2008</div>
-                    <div style={{color: "black"}} className="date-value">2009</div>
+                    <div style={{color: "black"}} className="date">2023</div>
+                    <div  style={{color: "black"}} className="label">15 December 2023</div>
+                    <div style={{color: "black"}} className="date-value">2023</div>
                   </div>
                 </SwiperSlide>
               </div>
@@ -314,19 +325,19 @@ const History = () => {
             </h3>
           </div>
           <div className="kf-blog-grid-items row">
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
               <div
                 className="kf-blog-grid-item element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog1.jpg" alt="image" />
+                    <img src="images/blog1.avif" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    SWR React Hooks With Next Increm Ental Static Regeneration
+                     The Journey from Pasture to Pour: A Day in the Life of a Dairy Farmer
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -339,19 +350,19 @@ const History = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
               <div
                 className="kf-blog-grid-item element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog2.jpg" alt="image" />
+                    <img src="images/blog2.avif" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    Decisions For Building Flexible Components DevTools Browser
+                  Sustainable Farming Practices: Nurturing the Land and Caring for Cows
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
@@ -364,20 +375,19 @@ const History = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
               <div
                 className="kf-blog-grid-item element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog3.jpg" alt="image" />
+                    <img src="images/blog3.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    SWR React Hooks With Next Increm Ental Static Regeneration
-                  </h5>
+                  Crafting Artisanal Cheese: A Behind-the-Scenes Look at Our Cheese-Making Process                  </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
                     25 Sep 2021
@@ -391,14 +401,14 @@ const History = () => {
             </div>
           </div>
           <div className="align-center">
-            <a
-              href="#"
+            <Link
+              href="blog-grid"
               className="kf-btn element-anim-1 scroll-animate"
               data-animate="active"
             >
               <span>view all</span>
               <i className="fas fa-chevron-right" />
-            </a>
+            </Link>
           </div>
         </div>
       </section>

@@ -52,7 +52,7 @@ const Footer = () => {
                 <li>
                   <i className="las la-envelope-open-text" />
                   <em>Email Address :</em>
-                  moomore@gmail.com
+                  info@moomore.co.ke
                 </li>
                 <li>
                   <i className="las la-phone" />
@@ -72,50 +72,50 @@ const Footer = () => {
               <ul>
                 <li>
                   <a
-                    href="images/blog10.jpg"
+                    href="images/cows1.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/blog10.jpg" alt="image" />
+                    <img src="images/cows1.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/blog4.jpg"
+                    href="images/cows3.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/blog4.jpg" alt="image" />
+                    <img src="images/cows3.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/calf5.jpg"
+                    href="images/calfs1.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/calf5.jpg" alt="image" />
+                    <img src="images/calfs1.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/blog9.jpg"
+                    href="images/calfs2.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/blog9.jpg" alt="image" />
+                    <img src="images/calfs2.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/blog7.jpg"
+                    href="images/cows7.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/blog7.jpg" alt="image" />
+                    <img src="images/cows7.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/bog5.jpg"
+                    href="images/cows8.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/bog5.jpg" alt="image" />
+                    <img src="images/cows5.jpg" alt="image" />
                   </a>
                 </li>
               </ul>

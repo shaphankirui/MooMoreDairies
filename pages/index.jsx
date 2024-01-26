@@ -53,8 +53,8 @@ const Index2 = () => {
                   <div className="description align-left element-anim-1">
                     <div className="subtitles">Welcome to the MOO AND MORE DAIRY FARM LIMITED</div>
                     <h2 className="name text-anim-1" data-splitting="chars">
-                      Explore The <br />
-                      Our Dairies
+                    Moo-velous Moments, Dairy Dreams <br />
+                    Welcome to Moo and More! 
                     </h2>
                     <div className="kf-bts">
                       <Link href="services" className="kf-btn">
@@ -80,8 +80,8 @@ const Index2 = () => {
                   <div className="description align-left element-anim-1">
                     <div className="subtitles">Welcome to the MOO AND MORE DAIRY FARM LIMITED</div>
                     <h2 className="name text-anim-1" data-splitting="chars">
-                      Premium <br />
-                      Fresh Milk and Yorgurt
+                    Milking Memories, Crafting Quality<br />
+                    Moo and More, Your Dairy Oasis! 
                     </h2>
                     <div className="kf-bts">
                       <Link href="services" className="kf-btn">
@@ -176,7 +176,7 @@ const Index2 = () => {
                 className="kf-text element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <p style={{color: "#FFFFFF"}}> 
+                <p style={{color: "#FFFFFF", font:"bold"}}> 
                 Well-designed barns provide comfortable housing for the dairy cattle, with proper 
                 ventilation and natural lighting.
                  The barns are equipped with state-of-the-art technology for climate control.
@@ -195,7 +195,7 @@ const Index2 = () => {
         </div>
       </section>
       {/* Section Menu */}
-      <section className="section kf-menu-classic section-bg">
+      {/* <section className="section kf-menu-classic section-bg">
         <div className="container">
           <div className="kf-titles align-center">
             <div
@@ -324,7 +324,7 @@ const Index2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Team */}
       <section className="section kf-team kf-section-transparent">
         <div className="container">

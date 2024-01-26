@@ -106,13 +106,13 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/pick2.jpg" className="has-popup-gallery">
-                  <img src="images/pick2.jpg" alt="image" />
+                <a href="images/cows3.jpg" className="has-popup-gallery">
+                  <img src="images/cows3.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">Barns and Shelters</div>
+                  <div className="value">Barns, Shelters and Feeding Place</div>
                 </div>
                 <div className="subname">
                   <div className="value">Infrastructure</div>
@@ -126,8 +126,8 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/pic1.jpg" className="has-popup-gallery">
-                  <img src="images/pic1.jpg" alt="image" />
+                <a href="images/cow2.jpg" className="has-popup-gallery">
+                  <img src="images/cow2.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
@@ -186,8 +186,8 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/calf1.jpg" className="has-popup-gallery">
-                  <img src="images/calf1.jpg" alt="image" />
+                <a href="images/calfs1.jpg" className="has-popup-gallery">
+                  <img src="images/calfs1.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
@@ -206,8 +206,8 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/hero2.jpg" className="has-popup-gallery">
-                  <img src="images/hero2.jpg" alt="image" />
+                <a href="images/cows8.jpg" className="has-popup-gallery">
+                  <img src="images/cows8.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
@@ -226,13 +226,13 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/hero3.jpg" className="has-popup-gallery">
-                  <img src="images/hero3.jpg" alt="image" />
+                <a href="images/cows6.jpg" className="has-popup-gallery">
+                  <img src="images/cows6.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
                 <div className="name">
-                  <div className="value">Resting </div>
+                  <div className="value">feeding </div>
                 </div>
                 <div className="subname">
                   <div className="value">Cattles</div>
@@ -246,8 +246,8 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/hero4.jpg" className="has-popup-gallery">
-                  <img src="images/hero4.jpg" alt="image" />
+                <a href="images/cows5.jpg" className="has-popup-gallery">
+                  <img src="images/cows5.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
@@ -266,8 +266,8 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="images/hero5.jpg" className="has-popup-gallery">
-                  <img src="images/hero3.jpg" alt="image" />
+                <a href="images/str3.jpg" className="has-popup-gallery">
+                  <img src="images/str3.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
