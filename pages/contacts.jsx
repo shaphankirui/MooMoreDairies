@@ -45,7 +45,7 @@ const Contacts = () => {
         <div
           className="kf-parallax-bg js-parallax"
           style={{
-            backgroundImage: "url(images/cows1.jpg)",
+            backgroundImage: "url(/images/cows1.jpg)",
           }}
         />
         <div className="container">
@@ -68,7 +68,7 @@ const Contacts = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  {/*<img src="images/contact_icon1.png" alt="" />*/}
+                  {/*<img src="/images/contact_icon1.png" alt="" />*/}
                   <i className="las la-map-marked-alt" />
                 </div>
                 <div className="desc">
@@ -92,7 +92,7 @@ const Contacts = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  {/*<img src="images/contact_icon2.png" alt="" />*/}
+                  {/*<img src="/images/contact_icon2.png" alt="" />*/}
                   <i className="las la-envelope-open-text" />
                 </div>
                 <div className="desc">
@@ -116,7 +116,7 @@ const Contacts = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  {/*<img src="images/contact_icon3.png" alt="" />*/}
+                  {/*<img src="/images/contact_icon3.png" alt="" />*/}
                   <a href="https://www.facebook.com/MooMoreDairyFarm" target="_blank">
                     <i className="fab fa-facebook-f" />
                   </a>
@@ -141,7 +141,7 @@ const Contacts = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  {/*<img src="images/contact_icon3.png" alt="" />*/}
+                  {/*<img src="/images/contact_icon3.png" alt="" />*/}
                   <a href="https://twitter.com/YourTwitterHandle" target="_blank">
                     <i className="fab fa-twitter" />
                   </a>                </div>
@@ -166,7 +166,7 @@ const Contacts = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  {/*<img src="images/contact_icon3.png" alt="" />*/}
+                  {/*<img src="/images/contact_icon3.png" alt="" />*/}
                   <a href="https://wa.me/+254 711 320959" target="_blank">
                     <i className="fab fa-whatsapp" />
                   </a>  
@@ -188,7 +188,7 @@ const Contacts = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  {/*<img src="images/contact_icon3.png" alt="" />*/}
+                  {/*<img src="/images/contact_icon3.png" alt="" />*/}
                   <a href="tel: +254 711 320959">
                   <i className="las la-headset" />
                   </a>
@@ -309,7 +309,7 @@ const Contacts = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand2.png" alt="image" />
+                  <img src="/images/brand2.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -319,7 +319,7 @@ const Contacts = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand3.png" alt="image" />
+                  <img src="/images/brand3.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -329,7 +329,7 @@ const Contacts = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand4.png" alt="image" />
+                  <img src="/images/brand4.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -339,7 +339,7 @@ const Contacts = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand5.png" alt="image" />
+                  <img src="/images/brand5.png" alt="image" />
                 </div>
               </div>
             </div>

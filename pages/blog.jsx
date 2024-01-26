@@ -8,7 +8,7 @@ const Blog = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/cows8.jpg)" }}
+          style={{ backgroundImage: "url(/images/cows8.jpg)" }}
         />
         <div className="container">
           <h1
@@ -32,7 +32,7 @@ const Blog = () => {
                 >
                   <div className="image kf-image-hover">
                     <Link href="blog-single">
-                      <img src="images/latest_blog1.jpg" alt="image" />
+                      <img src="/images/latest_blog1.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -65,7 +65,7 @@ const Blog = () => {
                 >
                   <div className="image kf-image-hover">
                     <Link href="blog-single">
-                      <img src="images/latest_blog2.jpg" alt="image" />
+                      <img src="/images/latest_blog2.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -98,7 +98,7 @@ const Blog = () => {
                 >
                   <div className="image kf-image-hover">
                     <Link href="blog-single">
-                      <img src="images/latest_blog3.jpg" alt="image" />
+                      <img src="/images/latest_blog3.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -333,7 +333,7 @@ const Blog = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
+        style={{ backgroundImage: "url(/images/cta_bg.jpg)" }}
       >
         <div className="container">
           <div className="row">
@@ -376,7 +376,7 @@ const Blog = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand1.png" alt="image" />
+                  <img src="/images/brand1.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -386,7 +386,7 @@ const Blog = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand2.png" alt="image" />
+                  <img src="/images/brand2.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -396,7 +396,7 @@ const Blog = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand3.png" alt="image" />
+                  <img src="/images/brand3.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -406,7 +406,7 @@ const Blog = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand4.png" alt="image" />
+                  <img src="/images/brand4.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -416,7 +416,7 @@ const Blog = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand5.png" alt="image" />
+                  <img src="/images/brand5.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -426,7 +426,7 @@ const Blog = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand6.png" alt="image" />
+                  <img src="/images/brand6.png" alt="image" />
                 </div>
               </div>
             </div>

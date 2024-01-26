@@ -425,7 +425,7 @@ select,
 
 select,
 .custom-select {
-  background: url(assets/images/select.png) no-repeat right 20px center/12px 8px;
+  background: url(assets//images/select.png) no-repeat right 20px center/12px 8px;
 }
 
 @media screen and (max-width: 767px) {
@@ -451,7 +451,7 @@ select,
   }
   select,
   .custom-select {
-    background: url(assets/images/select.png) no-repeat right 20px center/12px 8px;
+    background: url(assets//images/select.png) no-repeat right 20px center/12px 8px;
   }
 }
 
@@ -1799,7 +1799,7 @@ button.mfp-close:before, button.mfp-arrow:before {
   top: -25px;
   width: 93px;
   height: 95px;
-  background: url(assets/images/cafe_icon.png) no-repeat;
+  background: url(assets//images/cafe_icon.png) no-repeat;
   background-size: contain;
 }
 
@@ -1959,7 +1959,7 @@ button.mfp-close:before, button.mfp-arrow:before {
   width: 100%;
   height: 100%;
   border: none;
-  background: url(assets/images/nav.png) no-repeat;
+  background: url(assets//images/nav.png) no-repeat;
   background-size: contain;
   -o-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
   transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
@@ -1967,7 +1967,7 @@ button.mfp-close:before, button.mfp-arrow:before {
 }
 
 .swiper-button-prev:after, .swiper-button-next:after {
-  background: url(assets/images/nav2.png) no-repeat;
+  background: url(assets//images/nav2.png) no-repeat;
   background-size: contain;
   opacity: 0;
 }
@@ -4326,7 +4326,7 @@ button.mfp-close:before, button.mfp-arrow:before {
   left: 50%;
   width: 132px;
   height: 1px;
-  background: url(assets/images/line.png) no-repeat;
+  background: url(assets//images/line.png) no-repeat;
 }
 
 .kf-contacts-item ul li:first-child {
@@ -4693,7 +4693,7 @@ a.post-page-numbers:hover,
   top: 50%;
   width: 18px;
   height: 18px;
-  background: url(assets/images/search-solid.svg) no-repeat center center;
+  background: url(assets//images/search-solid.svg) no-repeat center center;
   background-size: contain;
   font-size: 0;
   -webkit-filter: brightness(0) invert(1);

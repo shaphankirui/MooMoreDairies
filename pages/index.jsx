@@ -20,7 +20,7 @@ const Index2 = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/cows1.jpg)" }}
+                  style={{ backgroundImage: "url(/images/cows1.jpg)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
@@ -47,7 +47,7 @@ const Index2 = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/calfs1.jpg)" }}
+                  style={{ backgroundImage: "url(/images/calfs1.webp)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
@@ -74,7 +74,7 @@ const Index2 = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(images/cows8.jpg)" }}
+                  style={{ backgroundImage: "url(/images/cows8.jpg)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
@@ -105,7 +105,7 @@ const Index2 = () => {
       {/* Section Category */}
       <section
         className="section kf-category"
-        style={{ backgroundImage: "url(images/bg.jpeg)" }}
+        style={{ backgroundImage: "url(/images/bg.jpeg)" }}
       >
         <div className="container">
           <div className="row">
@@ -117,7 +117,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="images/cows7.jpg" alt="image" />
+                      <img src="/images/cows7.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -127,7 +127,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="images/str1.jpg" alt="image" />
+                      <img src="/images/str1.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -137,7 +137,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="images/blog7.jpg" alt="image" />
+                      <img src="/images/blog7.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -147,7 +147,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="images/calfs2.jpg" alt="image" />
+                      <img src="/images/calfs2.jpg" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -215,7 +215,7 @@ const Index2 = () => {
           </div>
           <div
             className="kf-menu-items"
-            style={{ backgroundImage: "url(images/milkp.png)" }}
+            style={{ backgroundImage: "url(/images/milkp.png)" }}
           >
             <div className="row">
               
@@ -356,7 +356,7 @@ const Index2 = () => {
                   <div className="subname" style={{ color: "#FFFFFF" }}> Founder</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team1.jpg" alt="image" />
+                  <img src="/images/team1.jpg" alt="image" />
                   <div className="info">
                     <div className="label">suzannjuguna@gmail.com</div>
                     <div className="label">+254 711320959</div>
@@ -389,7 +389,7 @@ const Index2 = () => {
                   <div className="subname" style={{ color: "#FFFFFF" }}> Founder</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team1.jpg" alt="image" />
+                  <img src="/images/team1.jpg" alt="image" />
                   <div className="info">
                     <div className="label">njuguna@gmail.com</div>
                     <div className="label">+254 (345) 678 99</div>
@@ -422,7 +422,7 @@ const Index2 = () => {
                   <div className="subname" style={{ color: "#FFFFFF" }}>Senior Founder</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team1.jpg" alt="image" />
+                  <img src="/images/team1.jpg" alt="image" />
                   <div className="info">
                     <div className="label">bowmankf@gmail.com</div>
                     <div className="label">+254 (345) 678 99</div>
@@ -455,7 +455,7 @@ const Index2 = () => {
                   <div className="subname" style={{ color: "#FFFFFF" }}>Senior Founder</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team1.jpg" alt="image" />
+                  <img src="/images/team1.jpg" alt="image" />
                   <div className="info">
                     <div className="label">bowmankf@gmail.com</div>
                     <div className="label">+254 (345) 678 99</div>
@@ -484,7 +484,7 @@ const Index2 = () => {
       {/* Section About-2 */}
       <section
         className="section kf-about-2"
-        style={{ backgroundImage: "url(images/bg.jpeg)" }}
+        style={{ backgroundImage: "url(/images/bg.jpeg)" }}
       >
         <div className="container">
           <div className="row">
@@ -522,7 +522,7 @@ const Index2 = () => {
                     data-animate="active"
                   >
                     <div className="icon">
-                      <img src="images/dairy_icon.jpg" alt="image" />
+                      <img src="/images/dairy_icon.jpg" alt="image" />
                     </div>
                     <div className="desc">
                       <h5 className="name">100% Certified Dairy Farm</h5>
@@ -610,7 +610,7 @@ const Index2 = () => {
       {/* Section Video */}
       {/* <div className="section kf-video kf-video-full">
         <VideoPlayer
-          videoBg={"images/video_bg.jpg"}
+          videoBg={"/images/video_bg.jpg"}
           extraClass={"kf-parallax"}
         />
       </div> */}
@@ -685,7 +685,7 @@ const Index2 = () => {
 
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/hero3.jpg)" }}
+        style={{ backgroundImage: "url(/images/hero3.jpg)" }}
       >
         <div className="container">
           <div className="row">
@@ -743,7 +743,7 @@ const Index2 = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/blog1.avif" alt="image" />
+                    <img src="/images/blog1.avif" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -768,7 +768,7 @@ const Index2 = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/blog2.avif" alt="image" />
+                    <img src="/images/blog2.avif" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -793,7 +793,7 @@ const Index2 = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/blog3.jpg" alt="image" />
+                    <img src="/images/blog3.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -835,7 +835,7 @@ const Index2 = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand1.png" alt="image" />
+                  <img src="/images/brand1.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -845,7 +845,7 @@ const Index2 = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand2.png" alt="image" />
+                  <img src="/images/brand2.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -855,7 +855,7 @@ const Index2 = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand3.png" alt="image" />
+                  <img src="/images/brand3.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -865,7 +865,7 @@ const Index2 = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand4.png" alt="image" />
+                  <img src="/images/brand4.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -875,7 +875,7 @@ const Index2 = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand5.png" alt="image" />
+                  <img src="/images/brand5.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -885,7 +885,7 @@ const Index2 = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand6.png" alt="image" />
+                  <img src="/images/brand6.png" alt="image" />
                 </div>
               </div>
             </div>

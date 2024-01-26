@@ -29,7 +29,7 @@
 			top: -25px;
 			width: 93px;
 			height: 95px;
-			background: url(assets/images/cafe_icon.png) no-repeat;
+			background: url(assets//images/cafe_icon.png) no-repeat;
 			background-size: contain;
 		}
 	}
@@ -181,13 +181,13 @@
 		width: 100%;
 		height: 100%;
 		border: none;
-		background: url(assets/images/nav.png) no-repeat;
+		background: url(assets//images/nav.png) no-repeat;
 		background-size: contain;
 		transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
 		-webkit-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
 	}
 	&:after {
-		background: url(assets/images/nav2.png) no-repeat;
+		background: url(assets//images/nav2.png) no-repeat;
 		background-size: contain;
 		opacity: 0;
 	}
@@ -2374,7 +2374,7 @@
 				left: 50%;
 				width: 132px;
 				height: 1px;
-				background: url(assets/images/line.png) no-repeat;
+				background: url(assets//images/line.png) no-repeat;
 			}
 			&:first-child {
 				padding-top: 0;
@@ -2749,7 +2749,7 @@ a.post-page-numbers:hover,
 	top: 50%;
 	width: 18px;
 	height: 18px;
-	background: url(assets/images/search-solid.svg) no-repeat center center;
+	background: url(assets//images/search-solid.svg) no-repeat center center;
 	background-size: contain;
 	font-size: 0;
 	-webkit-filter: brightness(0) invert(1);

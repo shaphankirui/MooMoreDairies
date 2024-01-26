@@ -9,7 +9,7 @@ const Team = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/team_inner_bg.jpg)" }}
+          style={{ backgroundImage: "url(/images/team_inner_bg.jpg)" }}
         />
         <div className="container">
           <h1
@@ -50,7 +50,7 @@ const Team = () => {
                   <div className="subname">Founder </div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team1.jpg" alt="image" />
+                  <img src="/images/team1.jpg" alt="image" />
                   <div className="info">
                     <div className="label">bowmankf@gmail.com</div>
                     <div className="label">+012 (345) 678 99</div>
@@ -82,7 +82,7 @@ const Team = () => {
                   <div className="subname">Manager</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team2.jpg" alt="image" />
+                  <img src="/images/team2.jpg" alt="image" />
                   <div className="info">
                     <div className="label">gonzalezkf@gmail.com</div>
                     <div className="label">+012 (345) 678 99</div>
@@ -114,7 +114,7 @@ const Team = () => {
                   <div className="subname">Manager</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team3.jpg" alt="image" />
+                  <img src="/images/team3.jpg" alt="image" />
                   <div className="info">
                     <div className="label">lawrencekf@gmail.com</div>
                     <div className="label">+012 (345) 678 99</div>
@@ -146,7 +146,7 @@ const Team = () => {
                   <div className="subname">Ass. Manager</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team4.jpg" alt="image" />
+                  <img src="/images/team4.jpg" alt="image" />
                   <div className="info">
                     <div className="label">smithkf@gmail.com</div>
                     <div className="label">+012 (345) 678 99</div>
@@ -178,7 +178,7 @@ const Team = () => {
                   <div className="subname">Advisor</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team5.jpg" alt="image" />
+                  <img src="/images/team5.jpg" alt="image" />
                   <div className="info">
                     <div className="label">whitekf@gmail.com</div>
                     <div className="label">+012 (345) 678 99</div>
@@ -210,7 +210,7 @@ const Team = () => {
                   <div className="subname">Vetinarian</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team6.jpg" alt="image" />
+                  <img src="/images/team6.jpg" alt="image" />
                   <div className="info">
                     <div className="label">sewardkf@gmail.com</div>
                     <div className="label">+012 (345) 678 99</div>
@@ -242,7 +242,7 @@ const Team = () => {
                   <div className="subname">Breeding Officer</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team7.jpg" alt="image" />
+                  <img src="/images/team7.jpg" alt="image" />
                   <div className="info">
                     <div className="label">williamskf@gmail.com</div>
                     <div className="label">+012 (345) 678 99</div>
@@ -274,7 +274,7 @@ const Team = () => {
                   <div className="subname">Milking</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team8.jpg" alt="image" />
+                  <img src="/images/team8.jpg" alt="image" />
                   <div className="info">
                     <div className="label">dixonkf@gmail.com</div>
                     <div className="label">+012 (345) 678 99</div>
@@ -302,7 +302,7 @@ const Team = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/hero3.jpg)" }}
+        style={{ backgroundImage: "url(/images/hero3.jpg)" }}
       >
         <div className="container">
           <div className="row">
@@ -347,7 +347,7 @@ const Team = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand1.png" alt="image" />
+                  <img src="/images/brand1.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -357,7 +357,7 @@ const Team = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand2.png" alt="image" />
+                  <img src="/images/brand2.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -367,7 +367,7 @@ const Team = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand3.png" alt="image" />
+                  <img src="/images/brand3.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -377,7 +377,7 @@ const Team = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand4.png" alt="image" />
+                  <img src="/images/brand4.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -387,7 +387,7 @@ const Team = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand5.png" alt="image" />
+                  <img src="/images/brand5.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -397,7 +397,7 @@ const Team = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand6.png" alt="image" />
+                  <img src="/images/brand6.png" alt="image" />
                 </div>
               </div>
             </div>

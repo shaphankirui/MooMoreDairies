@@ -17,7 +17,7 @@ const Gallery = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/pic3.jpg)" }}
+          style={{ backgroundImage: "url(/images/pic3.jpg)" }}
         />
         <div className="container">
           <h1
@@ -34,7 +34,7 @@ const Gallery = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/pic3.jpg)" }}
+        style={{ backgroundImage: "url(/images/pic3.jpg)" }}
       >
         <div className="container">
           <div className="row">

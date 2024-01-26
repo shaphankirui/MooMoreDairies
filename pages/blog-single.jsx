@@ -26,7 +26,7 @@ const BlogSingle = () => {
         <div
           className="kf-archive-image element-anim-1 scroll-animate"
           data-animate="active"
-          style={{ backgroundImage: "url(images/hero3.jpg)" }}
+          style={{ backgroundImage: "url(/images/hero3.jpg)" }}
         />
       </section>
       {/* Section Archive */}
@@ -186,7 +186,7 @@ const BlogSingle = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
+        style={{ backgroundImage: "url(/images/cta_bg.jpg)" }}
       >
         <div className="container">
           <div className="row">
@@ -229,7 +229,7 @@ const BlogSingle = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand1.png" alt="image" />
+                  <img src="/images/brand1.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -239,7 +239,7 @@ const BlogSingle = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand2.png" alt="image" />
+                  <img src="/images/brand2.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -249,7 +249,7 @@ const BlogSingle = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand3.png" alt="image" />
+                  <img src="/images/brand3.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -259,7 +259,7 @@ const BlogSingle = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand4.png" alt="image" />
+                  <img src="/images/brand4.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -269,7 +269,7 @@ const BlogSingle = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand5.png" alt="image" />
+                  <img src="/images/brand5.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -279,7 +279,7 @@ const BlogSingle = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand6.png" alt="image" />
+                  <img src="/images/brand6.png" alt="image" />
                 </div>
               </div>
             </div>

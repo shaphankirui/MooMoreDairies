@@ -28,7 +28,7 @@ const History = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/cows7.jpg)" }}
+          style={{ backgroundImage: "url(/images/cows7.jpg)" }}
         />
         <div className="container">
           <h1
@@ -46,13 +46,13 @@ const History = () => {
           <div className="kf-parallax-icon pi-4" data-jarallax-element={-60}>
             <div
               className="p-icon"
-              style={{ backgroundImage: "url(images/quote_line_icon1.png)" }}
+              style={{ backgroundImage: "url(/images/quote_line_icon1.png)" }}
             />
           </div>
           <div className="kf-parallax-icon pi-5" data-jarallax-element={-80}>
             <div
               className="p-icon"
-              style={{ backgroundImage: "url(images/quote_line_icon2.png)" }}
+              style={{ backgroundImage: "url(/images/quote_line_icon2.png)" }}
             />
           </div>
           <div
@@ -74,7 +74,7 @@ const History = () => {
             </div>
             <div className="info">
               <div className="img">
-                <img src="images/quote_img2.jpg" alt="image" />
+                <img src="/images/quote_img2.jpg" alt="image" />
               </div>
               <h5 className="name">Suzan Njuguna</h5>
               <div className="subname">CEO &amp; Founder</div>
@@ -111,7 +111,7 @@ const History = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="images/history1.jpg" alt="image" />
+                      <img src="/images/history1.jpg" alt="image" />
                     </div>
                     <div className="desc">
                       <div className="subname">
@@ -142,7 +142,7 @@ const History = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="images/history2.jpg" alt="image" />
+                      <img src="/images/history2.jpg" alt="image" />
                     </div>
                     <div className="desc">
                       <div className="subname">Green Horizons:</div>
@@ -171,7 +171,7 @@ const History = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="images/history3.jpg" alt="image" />
+                      <img src="/images/history3.jpg" alt="image" />
                     </div>
                     <div className="desc">
                       <div className="subname">Nurturing the Future:</div>
@@ -199,7 +199,7 @@ const History = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="images/history4.jpg" alt="image" />
+                      <img src="/images/history4.jpg" alt="image" />
                     </div>
                     <div className="desc">
                       <div className="subname">
@@ -250,7 +250,7 @@ const History = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand1.png" alt="image" />
+                  <img src="/images/brand1.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -260,7 +260,7 @@ const History = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand2.png" alt="image" />
+                  <img src="/images/brand2.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -270,7 +270,7 @@ const History = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand3.png" alt="image" />
+                  <img src="/images/brand3.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -280,7 +280,7 @@ const History = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand4.png" alt="image" />
+                  <img src="/images/brand4.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -290,7 +290,7 @@ const History = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand5.png" alt="image" />
+                  <img src="/images/brand5.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -300,7 +300,7 @@ const History = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand6.png" alt="image" />
+                  <img src="/images/brand6.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -332,7 +332,7 @@ const History = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/blog1.avif" alt="image" />
+                    <img src="/images/blog1.avif" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -357,7 +357,7 @@ const History = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/blog2.avif" alt="image" />
+                    <img src="/images/blog2.avif" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -382,7 +382,7 @@ const History = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/blog3.jpg" alt="image" />
+                    <img src="/images/blog3.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -415,7 +415,7 @@ const History = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
+        style={{ backgroundImage: "url(/images/cta_bg.jpg)" }}
       >
         <div className="container">
           <div className="row">

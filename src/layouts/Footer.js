@@ -10,7 +10,7 @@ const Footer = () => {
               data-animate="active"
             >
               <a href="index.html">
-                <img src="images/logo1.jpg" alt="image" />
+                <img src="/images/logo1.jpg" alt="image" />
               </a>
             </div>
           </div>
@@ -72,50 +72,50 @@ const Footer = () => {
               <ul>
                 <li>
                   <a
-                    href="images/cows1.jpg"
+                    href="/images/cows1.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/cows1.jpg" alt="image" />
+                    <img src="/images/cows1.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/cows3.jpg"
+                    href="/images/cows3.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/cows3.jpg" alt="image" />
+                    <img src="/images/cows3.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/calfs1.jpg"
+                    href="/images/calfs1.webp"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/calfs1.jpg" alt="image" />
+                    <img src="/images/calfs1.webp" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/calfs2.jpg"
+                    href="/images/calfs2.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/calfs2.jpg" alt="image" />
+                    <img src="/images/calfs2.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/cows7.jpg"
+                    href="/images/cows7.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/cows7.jpg" alt="image" />
+                    <img src="/images/cows7.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/cows8.jpg"
+                    href="/images/cows8.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/cows5.jpg" alt="image" />
+                    <img src="/images/cows5.jpg" alt="image" />
                   </a>
                 </li>
               </ul>

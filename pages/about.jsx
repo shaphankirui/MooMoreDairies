@@ -10,7 +10,7 @@ const About = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/cows4.jpg)" }}
+          style={{ backgroundImage: "url(/images/cows4.jpg)" }}
         />
         <div className="container">
           <h1
@@ -60,7 +60,7 @@ const About = () => {
                     data-animate="active"
                   >
                     <div className="icon">
-                      <img src="images/choose_icon1.png" alt="image" />
+                      <img src="/images/choose_icon1.png" alt="image" />
                     </div>
                     <div className="desc">
                       <h5 className="name"     style={{ color: "black" }}>Natural processed Mala</h5>
@@ -74,7 +74,7 @@ const About = () => {
                     data-animate="active"
                   >
                     <div className="icon">
-                      <img src="images/dairy_icon.jpg" alt="image" />
+                      <img src="/images/dairy_icon.jpg" alt="image" />
                     </div>
                     <div className="desc">
                       <h5 className="name"     style={{ color: "black" }}>100%  Certified Dairy Farm</h5>
@@ -100,7 +100,7 @@ const About = () => {
                 className="kf-choose-image element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <img src="images/bog5.jpg" alt="image" />
+                <img src="/images/bog5.jpg" alt="image" />
               </div>
             </div>
           </div>
@@ -177,7 +177,7 @@ const About = () => {
       {/* <section className="section kf-video">
         <div className="container">
           <VideoPlayer
-            videoBg={"images/video_bg.jpg"}
+            videoBg={"/images/video_bg.jpg"}
             extraClass={"kf-image-hover"}
           />
         </div>
@@ -212,7 +212,7 @@ const About = () => {
                   <div className="subname">Senior Founder</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team1.jpg" alt="image" />
+                  <img src="/images/team1.jpg" alt="image" />
                   <div className="info">
                     <div className="label">bowmankf@gmail.com</div>
                     <div className="label">+254 (345) 678 99</div>
@@ -245,7 +245,7 @@ const About = () => {
                   <div className="subname">Manager</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team2.jpg" alt="image" />
+                  <img src="/images/team2.jpg" alt="image" />
                   <div className="info">
                     <div className="label">gonzalezkf@gmail.com</div>
                     <div className="label">+254 (345) 678 99</div>
@@ -278,7 +278,7 @@ const About = () => {
                   <div className="subname">Assistant Manager</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team3.jpg" alt="image" />
+                  <img src="/images/team3.jpg" alt="image" />
                   <div className="info">
                     <div className="label">lawrencekf@gmail.com</div>
                     <div className="label">+254 (345) 678 99</div>
@@ -311,7 +311,7 @@ const About = () => {
                   <div className="subname">Vetinarian</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="images/team4.jpg" alt="image" />
+                  <img src="/images/team4.jpg" alt="image" />
                   <div className="info">
                     <div className="label">smithkf@gmail.com</div>
                     <div className="label">+254 (345) 678 99</div>
@@ -346,7 +346,7 @@ const About = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand1.png" alt="image" />
+                  <img src="/images/brand1.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -356,7 +356,7 @@ const About = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand2.png" alt="image" />
+                  <img src="/images/brand2.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -366,7 +366,7 @@ const About = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand3.png" alt="image" />
+                  <img src="/images/brand3.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -376,7 +376,7 @@ const About = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand4.png" alt="image" />
+                  <img src="/images/brand4.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -386,7 +386,7 @@ const About = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand5.png" alt="image" />
+                  <img src="/images/brand5.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -396,7 +396,7 @@ const About = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand6.png" alt="image" />
+                  <img src="/images/brand6.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -408,7 +408,7 @@ const About = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cow2.jpg)" }}
+        style={{ backgroundImage: "url(/images/cow2.jpg)" }}
       >
         <div className="container">
           <div className="row">

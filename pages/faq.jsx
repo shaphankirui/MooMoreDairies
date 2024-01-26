@@ -16,7 +16,7 @@ const Faq = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/faq_inner_bg.jpg)" }}
+          style={{ backgroundImage: "url(/images/faq_inner_bg.jpg)" }}
         />
         <div className="container">
           <h1
@@ -75,7 +75,7 @@ const Faq = () => {
                       <Fragment>
                         <p>
                           <img
-                            src="images/faq_img1.jpg"
+                            src="/images/faq_img1.jpg"
                             className="alignleft"
                             alt
                           />
@@ -113,7 +113,7 @@ const Faq = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg2.jpg)" }}
+        style={{ backgroundImage: "url(/images/cta_bg2.jpg)" }}
       >
         <div className="container">
           <div className="row">
@@ -156,7 +156,7 @@ const Faq = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand1.png" alt="image" />
+                  <img src="/images/brand1.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -166,7 +166,7 @@ const Faq = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand2.png" alt="image" />
+                  <img src="/images/brand2.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -176,7 +176,7 @@ const Faq = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand3.png" alt="image" />
+                  <img src="/images/brand3.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -186,7 +186,7 @@ const Faq = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand4.png" alt="image" />
+                  <img src="/images/brand4.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -196,7 +196,7 @@ const Faq = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand5.png" alt="image" />
+                  <img src="/images/brand5.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -206,7 +206,7 @@ const Faq = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand6.png" alt="image" />
+                  <img src="/images/brand6.png" alt="image" />
                 </div>
               </div>
             </div>

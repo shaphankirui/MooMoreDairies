@@ -8,7 +8,7 @@ const BlogGrid = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/cows8.jpg)" }}
+          style={{ backgroundImage: "url(/images/cows8.jpg)" }}
         />
         <div className="container">
           <h1
@@ -45,7 +45,7 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/blog1.avif" alt="image" />
+                    <img src="/images/blog1.avif" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -70,7 +70,7 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/blog2.avif" alt="image" />
+                    <img src="/images/blog2.avif" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -95,7 +95,7 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/blog3.jpg" alt="image" />
+                    <img src="/images/blog3.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -120,7 +120,7 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/blog4.jpg" alt="image" />
+                    <img src="/images/blog4.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -145,7 +145,7 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/bog5.jpg" alt="image" />
+                    <img src="/images/bog5.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -170,7 +170,7 @@ const BlogGrid = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/blog8.jpg" alt="image" />
+                    <img src="/images/blog8.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -204,7 +204,7 @@ const BlogGrid = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/str2.jpg)" }}
+        style={{ backgroundImage: "url(/images/str2.jpg)" }}
       >
         <div className="container">
           <div className="row">
@@ -247,7 +247,7 @@ const BlogGrid = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand1.png" alt="image" />
+                  <img src="/images/brand1.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -257,7 +257,7 @@ const BlogGrid = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand2.png" alt="image" />
+                  <img src="/images/brand2.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -267,7 +267,7 @@ const BlogGrid = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand3.png" alt="image" />
+                  <img src="/images/brand3.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -277,7 +277,7 @@ const BlogGrid = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand4.png" alt="image" />
+                  <img src="/images/brand4.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -287,7 +287,7 @@ const BlogGrid = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand5.png" alt="image" />
+                  <img src="/images/brand5.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -297,7 +297,7 @@ const BlogGrid = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand6.png" alt="image" />
+                  <img src="/images/brand6.png" alt="image" />
                 </div>
               </div>
             </div>

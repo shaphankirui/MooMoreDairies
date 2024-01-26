@@ -8,7 +8,7 @@ const Services = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/calf2.jpg)" }}
+          style={{ backgroundImage: "url(/images/calf2.jpg)" }}
         />
         <div className="container">
           <h1
@@ -260,7 +260,7 @@ const Services = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cows6.jpg)" }}
+        style={{ backgroundImage: "url(/images/cows6.jpg)" }}
       >
         <div className="container">
           <div className="row">

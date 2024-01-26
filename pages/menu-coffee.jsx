@@ -13,7 +13,7 @@ const MenuCoffee = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(images/service3.jpg)" }}
+          style={{ backgroundImage: "url(/images/service3.jpg)" }}
         />
         <div className="container">
           <h1
@@ -36,11 +36,11 @@ const MenuCoffee = () => {
           >
             <div
               className="image-left"
-              style={{ backgroundImage: "url(images/reservation5.jpg)" }}
+              style={{ backgroundImage: "url(/images/reservation5.jpg)" }}
             />
             <div
               className="image-right"
-              style={{ backgroundImage: "url(images/reservation6.jpg)" }}
+              style={{ backgroundImage: "url(/images/reservation6.jpg)" }}
             />
             <div className="kf-titles align-center">
               <div className="kf-subtitle">Booking Table</div>
@@ -122,7 +122,7 @@ const MenuCoffee = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand1.png" alt="image" />
+                  <img src="/images/brand1.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -132,7 +132,7 @@ const MenuCoffee = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand2.png" alt="image" />
+                  <img src="/images/brand2.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ const MenuCoffee = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand3.png" alt="image" />
+                  <img src="/images/brand3.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -152,7 +152,7 @@ const MenuCoffee = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand4.png" alt="image" />
+                  <img src="/images/brand4.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -162,7 +162,7 @@ const MenuCoffee = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand5.png" alt="image" />
+                  <img src="/images/brand5.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -172,7 +172,7 @@ const MenuCoffee = () => {
                 data-animate="active"
               >
                 <div className="image">
-                  <img src="images/brand6.png" alt="image" />
+                  <img src="/images/brand6.png" alt="image" />
                 </div>
               </div>
             </div>
