@@ -10,7 +10,7 @@ const About = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(/images/cows4.jpg)" }}
+          style={{ backgroundImage: "url(/images/cows4.webp)" }}
         />
         <div className="container">
           <h1
@@ -408,7 +408,7 @@ const About = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(/images/cow2.jpg)" }}
+        style={{ backgroundImage: "url(/images/cow2.webp)" }}
       >
         <div className="container">
           <div className="row">

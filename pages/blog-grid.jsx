@@ -8,7 +8,7 @@ const BlogGrid = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(/images/cows8.jpg)" }}
+          style={{ backgroundImage: "url(/images/cows8.webp)" }}
         />
         <div className="container">
           <h1
@@ -204,7 +204,7 @@ const BlogGrid = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(/images/str2.jpg)" }}
+        style={{ backgroundImage: "url(/images/str2.webp)" }}
       >
         <div className="container">
           <div className="row">

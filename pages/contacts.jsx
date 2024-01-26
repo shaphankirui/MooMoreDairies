@@ -45,7 +45,7 @@ const Contacts = () => {
         <div
           className="kf-parallax-bg js-parallax"
           style={{
-            backgroundImage: "url(/images/cows1.jpg)",
+            backgroundImage: "url(/images/cows1.webp)",
           }}
         />
         <div className="container">

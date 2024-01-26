@@ -9,7 +9,7 @@ const Reservation = () => {
         <div
           className="kf-parallax-bg js-parallax"
           style={{
-            backgroundImage: "url(/images/calfs3.jpg)",
+            backgroundImage: "url(/images/calfs3.webp)",
           }}
         />
         <div className="container">

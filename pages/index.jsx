@@ -20,7 +20,7 @@ const Index2 = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(/images/cows1.jpg)" }}
+                  style={{ backgroundImage: "url(/images/cows1.webp)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
@@ -74,7 +74,7 @@ const Index2 = () => {
               <div className="kf-started-item">
                 <div
                   className="slide js-parallax"
-                  style={{ backgroundImage: "url(/images/cows8.jpg)" }}
+                  style={{ backgroundImage: "url(/images/cows8.webp)" }}
                 />
                 <div className="container">
                   <div className="description align-left element-anim-1">
@@ -117,7 +117,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="/images/cows7.jpg" alt="image" />
+                      <img src="/images/cows7.webp" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -127,7 +127,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="/images/str1.jpg" alt="image" />
+                      <img src="/images/str1.webp" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -147,7 +147,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="/images/calfs2.jpg" alt="image" />
+                      <img src="/images/calfs2.webp" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">

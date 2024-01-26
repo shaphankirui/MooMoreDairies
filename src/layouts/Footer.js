@@ -72,18 +72,18 @@ const Footer = () => {
               <ul>
                 <li>
                   <a
-                    href="/images/cows1.jpg"
+                    href="/images/cows1.webp"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="/images/cows1.jpg" alt="image" />
+                    <img src="/images/cows1.webp" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/images/cows3.jpg"
+                    href="/images/cows3.webp"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="/images/cows3.jpg" alt="image" />
+                    <img src="/images/cows3.webp" alt="image" />
                   </a>
                 </li>
                 <li>
@@ -96,26 +96,26 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/images/calfs2.jpg"
+                    href="/images/calfs2.webp"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="/images/calfs2.jpg" alt="image" />
+                    <img src="/images/calfs2.webp" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/images/cows7.jpg"
+                    href="/images/cows7.webp"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="/images/cows7.jpg" alt="image" />
+                    <img src="/images/cows7.webp" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/images/cows8.jpg"
+                    href="/images/cows8.webp"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="/images/cows5.jpg" alt="image" />
+                    <img src="/images/cows5.webp" alt="image" />
                   </a>
                 </li>
               </ul>
