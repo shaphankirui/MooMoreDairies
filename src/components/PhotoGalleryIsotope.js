@@ -146,8 +146,8 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="/images/pic3.jpg" className="has-popup-gallery">
-                  <img src="/images/pic3.jpg" alt="image" />
+                <a href="/images/cows1.webp" className="has-popup-gallery">
+                  <img src="/images/cows1.webp" alt="image" />
                 </a>
               </div>
               <div className="desc">
@@ -246,8 +246,8 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="/images/cows5.webp" className="has-popup-gallery">
-                  <img src="/images/cows5.webp" alt="image" />
+                <a href="/images/cows6.webp" className="has-popup-gallery">
+                  <img src="/images/cows6.webp" alt="image" />
                 </a>
               </div>
               <div className="desc">
@@ -266,8 +266,8 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="/images/str3.webp" className="has-popup-gallery">
-                  <img src="/images/str3.webp" alt="image" />
+                <a href="/images/cows5.webp" className="has-popup-gallery">
+                  <img src="/images/cows5.webp" alt="image" />
                 </a>
               </div>
               <div className="desc">

@@ -4,7 +4,9 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Moo &amp; More </title>
+        <title>more &amp; moo </title>
+         {/* Add a link tag for the favicon */}
+         <link rel="icon" href="/public/images/logo.jpg" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

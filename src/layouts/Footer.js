@@ -23,16 +23,16 @@ const Footer = () => {
               <h5>Working Hours</h5>
               <ul>
                 <li>
-                  Sunday - Thursday
+                 Every Day
                   <em>08:00 am - 09:00pm</em>
                 </li>
-                <li>
+                {/* <li>
                   Only Friday
                   <em>03:00 pm - 09:00pm</em>
                 </li>
                 <li>
                   <strong>Saturday Close</strong>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

@@ -127,7 +127,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="/images/str1.webp" alt="image" />
+                      <img src="/images/cows8.webp" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">

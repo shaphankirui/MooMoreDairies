@@ -204,7 +204,7 @@ const BlogGrid = () => {
       {/* Section CTA */}
       <section
         className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(/images/str2.webp)" }}
+        style={{ backgroundImage: "url(/images/cows1.webp)" }}
       >
         <div className="container">
           <div className="row">

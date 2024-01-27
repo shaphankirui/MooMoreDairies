@@ -1,6 +1,7 @@
 import InstaCarousel from "@/src/components/sliders/InstaCarousel";
 import Layouts from "@/src/layouts/Layouts";
 import { useEffect } from 'react';
+import { sendMail } from '@/src/mailer';
 
 
 
@@ -38,6 +39,36 @@ const Contacts = () => {
       title: 'Kisumu, Kenya',
     });
   };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+  
+    // Get form data
+    const formData = new FormData(event.target);
+  
+    try {
+      // Send form data to the server
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(Object.fromEntries(formData)),
+      });
+  
+      if (response.ok) {
+        console.log('Email request sent successfully');
+        // Show success message or redirect to a thank you page
+      } else {
+        console.error('Error sending email request');
+        // Handle error or show an error message
+      }
+    } catch (error) {
+      console.error('Error sending email request:', error);
+      // Handle error or show an error message
+    }
+  };
+  
   return (
     <Layouts>
       {/* Section Started Inner */}
@@ -222,7 +253,7 @@ const Contacts = () => {
               <div className="kf-subtitle">Contact Us</div>
               <h3 className="kf-title">Send Us Message</h3>
             </div>
-            <form id="cform" method="post">
+            <form id="cform" method="post" onSubmit={handleSubmit}>
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                   <div className="kf-field">
@@ -265,7 +296,7 @@ const Contacts = () => {
                     <a
                       href="#"
                       className="kf-btn"
-                      onclick="$('#cform').submit(); return false;"
+                      onclick="$('#cform').handleSubmit(); return false;"
                     >
                       <span>Send us message</span>
                       <i className="fas fa-chevron-right" />

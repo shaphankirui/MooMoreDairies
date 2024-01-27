@@ -32,7 +32,7 @@ const Header = () => {
             {/* hours */}
             <div className="kf-h-group">
               <i className="far fa-clock" /> <em>opening hours :</em> 08:00 am -
-              09:00 pm
+              5:00 pm
             </div>
           </div>
           <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 align-center">
@@ -256,7 +256,7 @@ const Header = () => {
               {/* hours */}
               <div className="kf-h-group">
                 <i className="far fa-clock" /> <em>opening hours :</em> 08:00 am
-                - 09:00 pm
+                - 5:00 pm
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
