@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <title>more &amp; moo </title>
          {/* Add a link tag for the favicon */}
-         <link rel="icon" href="/public/images/logo.jpg" />
+         <link rel="icon" href="/images/favicon.ico" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

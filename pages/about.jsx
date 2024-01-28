@@ -60,13 +60,13 @@ const About = () => {
                     data-animate="active"
                   >
                     <div className="icon">
-                      <img src="/images/choose_icon1.png" alt="image" />
+                      <img src="/images/training.jpg" alt="image" />
                     </div>
                     <div className="desc">
-                      <h5 className="name"     style={{ color: "black" }}>Natural processed Mala</h5>
+                      <h5 className="name"     style={{ color: "black" }}>Training Local Farmer and Comunity</h5>
                       <div className="subname"     style={{ color: "#FFFFFF" }}>
-                        Get to taste some of the best Natural made Mala ever
-                      </div>
+                      We organize farm tours, workshops, 
+                      and demonstrations to share their knowledge and promote best practices in dairy farming.                      </div>
                     </div>
                   </li>
                   <li
@@ -86,7 +86,7 @@ const About = () => {
                 </ul>
               </div>
               <Link
-                href="menu-coffee"
+                href="services"
                 className="kf-btn element-anim-1 scroll-animate"
                 data-animate="active"
                 style={{ color: "black" }}
