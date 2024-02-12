@@ -89,14 +89,14 @@ const PhotoGalleryIsotope = () => {
             data-href="dinner-menu"
             onClick={handleFilterKeyChange("dinner-menu")}
           >
-            Breeding Bulls
+            Feeds And Cattles
           </a>
           <a
             className="c-pointer"
             data-href="special-pizza"
             onClick={handleFilterKeyChange("special-pizza")}
           >
-           Our Products
+           Our Calves
           </a>
         </div>
         <div className="kf-gallery-items row">
@@ -180,7 +180,7 @@ const PhotoGalleryIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all hot-coffee">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all special-pizza">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -200,7 +200,7 @@ const PhotoGalleryIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all fast-food">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all hot-coffee">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
@@ -240,14 +240,34 @@ const PhotoGalleryIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-menu">
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all special-pizza">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="/images/cows6.webp" className="has-popup-gallery">
-                  <img src="/images/cows6.webp" alt="image" />
+                <a href="/images/feeding1.jpg" className="has-popup-gallery">
+                  <img src="/images/feeding1.jpg" alt="image" />
+                </a>
+              </div>
+              <div className="desc">
+                <div className="name">
+                  <div className="value">Calves</div>
+                </div>
+                <div className="subname">
+                  <div className="value">calves rearing</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all hot-coffee">
+            <div
+              className="kf-gallery-item element-anim-1 scroll-animate"
+              data-animate="active"
+            >
+              <div className="image kf-image-hover">
+                <a href="/images/cows11.jpg" className="has-popup-gallery">
+                  <img src="/images/cows11.jpg" alt="image" />
                 </a>
               </div>
               <div className="desc">
@@ -260,6 +280,88 @@ const PhotoGalleryIsotope = () => {
               </div>
             </div>
           </div>
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-menu">
+            <div
+              className="kf-gallery-item element-anim-1 scroll-animate"
+              data-animate="active"
+            >
+              <div className="image kf-image-hover">
+                <a href="/images/cows12.jpg" className="has-popup-gallery">
+                  <img src="/images/cows12.jpg" alt="image" />
+                </a>
+              </div>
+              <div className="desc">
+                <div className="name">
+                  <div className="value">Feeds</div>
+                </div>
+                <div className="subname">
+                  <div className="value">Feeding Animals</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-menu">
+            <div
+              className="kf-gallery-item element-anim-1 scroll-animate"
+              data-animate="active"
+            >
+              <div className="image kf-image-hover">
+                <a href="/images/cows13.jpg" className="has-popup-gallery">
+                  <img src="/images/cows13.jpg" alt="image" />
+                </a>
+              </div>
+              <div className="desc">
+                <div className="name">
+                  <div className="value">Animals</div>
+                </div>
+                <div className="subname">
+                  <div className="value">Feeding Animals</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-menu">
+            <div
+              className="kf-gallery-item element-anim-1 scroll-animate"
+              data-animate="active"
+            >
+              <div className="image kf-image-hover">
+                <a href="/images/calfs11.jpg" className="has-popup-gallery">
+                  <img src="/images/calfs11.jpg" alt="image" />
+                </a>
+              </div>
+              <div className="desc">
+                <div className="name">
+                  <div className="value">Calves</div>
+                </div>
+                <div className="subname">
+                  <div className="value">Calves Rearing</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-menu">
+            <div
+              className="kf-gallery-item element-anim-1 scroll-animate"
+              data-animate="active"
+            >
+              <div className="image kf-image-hover">
+                <a href="/images/burning.jpg" className="has-popup-gallery">
+                  <img src="/images/burning.jpg" alt="image" />
+                </a>
+              </div>
+              <div className="desc">
+                <div className="name">
+                  <div className="value">Bio Gas</div>
+                </div>
+                <div className="subname">
+                  <div className="value">Burning Bio Gas From the Farm</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
           <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-menu">
             <div
               className="kf-gallery-item element-anim-1 scroll-animate"

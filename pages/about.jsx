@@ -190,12 +190,14 @@ const About = () => {
             <div
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
+              style={{color: "#FFFFFF"}}
             >
-              Experience Team Member
+              Experience Team Members
             </div>
             <h3
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
+              style={{color: "black"}}
             >
               Meet Our Team Members
             </h3>
@@ -205,17 +207,83 @@ const About = () => {
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
-                style={{ backgroundColor: "#090c0f" }}
+                style={{ backgroundColor: "skyblue" }}
               >
                 <div className="desc">
-                  <h5 className="name">Anthony Tonui</h5>
-                  <div className="subname">Senior Founder</div>
+                  <h5 className="name" style={{ color: "black" }}>Susan Njuguna</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}> Founder</div>
+                </div>
+                <div className="image kf-image-hover">
+                  <img src="/images/susan.jpg" alt="image" />
+                  <div className="info">
+                    <div className="label">suzannjuguna@gmail.com</div>
+                    <div className="label">+254 711320959</div>
+                  </div>
+                  <div className="social">
+                    <a href="#">
+                      <i className="fab fa-facebook-f" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-twitter" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-linkedin" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-youtube" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <div
+                className="kf-team-item element-anim-1 scroll-animate"
+                data-animate="active"
+                style={{ backgroundColor: "skyblue" }}
+              >
+                <div className="desc">
+                  <h5 className="name" style={{ color: "black" }}> Kennedy Ouma</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}> Founder</div>
+                </div>
+                <div className="image kf-image-hover">
+                  <img src="/images/founder.jpg" alt="image" />
+                  <div className="info">
+                    <div className="label">kenedyouman@gmail.com</div>
+                    <div className="label">+254 711320959</div>
+                  </div>
+                  <div className="social">
+                    <a href="#">
+                      <i className="fab fa-facebook-f" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-twitter" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-linkedin" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-youtube" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <div
+                className="kf-team-item element-anim-1 scroll-animate"
+                data-animate="active"
+                style={{ backgroundColor: "skyblue" }}
+              >
+                <div className="desc">
+                  <h5 className="name" style={{ color: "black" }}>Collins Korir</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}>Manager</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="/images/team1.jpg" alt="image" />
                   <div className="info">
-                    <div className="label">bowmankf@gmail.com</div>
-                    <div className="label">+254 (345) 678 99</div>
+                    <div className="label">collinkorir@gmail.com</div>
+                    <div className="label">+254 712 688460</div>
                   </div>
                   <div className="social">
                     <a href="#">
@@ -238,17 +306,17 @@ const About = () => {
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
-                style={{ backgroundColor: "#090c0f" }}
+                style={{ backgroundColor: "skyblue" }}
               >
                 <div className="desc">
-                  <h5 className="name">Kenny Rono</h5>
-                  <div className="subname">Manager</div>
+                  <h5 className="name" style={{ color: "black" }}>Edwin</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}>worker</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="/images/team2.jpg" alt="image" />
+                  <img src="/images/team1.jpg" alt="image" />
                   <div className="info">
-                    <div className="label">gonzalezkf@gmail.com</div>
-                    <div className="label">+254 (345) 678 99</div>
+                    <div className="label"></div>
+                    <div className="label"></div>
                   </div>
                   <div className="social">
                     <a href="#">
@@ -271,17 +339,17 @@ const About = () => {
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
-                style={{ backgroundColor: "#090c0f" }}
+                style={{ backgroundColor: "skyblue" }}
               >
                 <div className="desc">
-                  <h5 className="name">Joseph Mwangi</h5>
-                  <div className="subname">Assistant Manager</div>
+                  <h5 className="name" style={{ color: "black" }}>Okumu</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}>worker</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="/images/team3.jpg" alt="image" />
+                  <img src="/images/team1.jpg" alt="image" />
                   <div className="info">
-                    <div className="label">lawrencekf@gmail.com</div>
-                    <div className="label">+254 (345) 678 99</div>
+                    <div className="label"></div>
+                    <div className="label"></div>
                   </div>
                   <div className="social">
                     <a href="#">
@@ -304,17 +372,17 @@ const About = () => {
               <div
                 className="kf-team-item element-anim-1 scroll-animate"
                 data-animate="active"
-                style={{ backgroundColor: "#090c0f" }}
+                style={{ backgroundColor: "skyblue" }}
               >
                 <div className="desc">
-                  <h5 className="name">Rachael Kirui</h5>
-                  <div className="subname">Vetinarian</div>
+                  <h5 className="name" style={{ color: "black" }}>Majuma</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}>worker</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="/images/team4.jpg" alt="image" />
+                  <img src="/images/team1.jpg" alt="image" />
                   <div className="info">
-                    <div className="label">smithkf@gmail.com</div>
-                    <div className="label">+254 (345) 678 99</div>
+                    <div className="label"></div>
+                    <div className="label"></div>
                   </div>
                   <div className="social">
                     <a href="#">
