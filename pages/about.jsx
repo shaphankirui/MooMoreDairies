@@ -40,7 +40,7 @@ const About = () => {
                   data-animate="active"
                                   >
                   Established in 2023, Moo and More Dairy Farm began with a passion 
-                  for sustainable farming and a commitment to delivering quality dairy to our community. 
+                  for sustainable farming and a commitment to delivering high quality dairy products. 
                </h3>
               </div>
               <div

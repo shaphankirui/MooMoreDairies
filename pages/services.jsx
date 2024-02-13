@@ -41,7 +41,7 @@ const Services = () => {
             </h3>
           </div>
           <div className="kf-numbers-items-2 row">
-            <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+            {/* <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
               <div
                 className="kf-numbers-item-2 element-anim-1 scroll-animate"
                 data-animate="active"
@@ -100,7 +100,7 @@ const Services = () => {
                    The farm places a strong emphasis on balanced nutrition for the cattle.</div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="kf-titles align-center">
             <div
               className="kf-subtitle element-anim-1 scroll-animate"
@@ -247,7 +247,7 @@ const Services = () => {
                 <i class="las la-memory"></i>
                 </div>
                 <div className="desc">
-                  <h5 className="name">Morder Technolgy</h5>
+                  <h5 className="name">Modern Technolgy</h5>
                   <div style={{color:"black"}} className="subname">Moo & More Dairy Farm serves as a model for sustainable and ethical dairy farming practices, showcasing the harmonious coexistence of modern
                    technology, traditional values, and a deep respect for the welfare of the animals.</div>
                 </div>
