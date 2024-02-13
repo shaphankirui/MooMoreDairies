@@ -114,7 +114,7 @@ const Team = () => {
                   <div className="subname">Manager</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="/images/feeding2.Jpg" alt="image" />
+                  <img src="/images/feeding2.JPG" alt="image" />
                   <div className="info">
                     {/* <div className="label">collinskorir@gmail.com</div>
                     <div className="label">+254 712 688460</div> */}
