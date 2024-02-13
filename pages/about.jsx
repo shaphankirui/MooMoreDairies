@@ -313,7 +313,7 @@ const About = () => {
                   <div className="subname" style={{ color: "#FFFFFF" }}>  farm hand</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="/images/okumu.JPG" alt="image" />
+                  <img src="/images/okumu.jpg" alt="image" />
                   <div className="info">
                     <div className="label"></div>
                     <div className="label"></div>
