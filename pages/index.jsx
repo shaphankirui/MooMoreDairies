@@ -358,7 +358,7 @@ const Index2 = () => {
                 <div className="image kf-image-hover">
                   <img src="/images/susan.jpg" alt="image" />
                   <div className="info">
-                    <div className="label">suzannjuguna@gmail.com</div>
+                    <div className="label">  moomoredairyfarmlimited@gmail.com</div>
                     <div className="label">+254 711320959</div>
                   </div>
                   <div className="social">
@@ -391,7 +391,7 @@ const Index2 = () => {
                 <div className="image kf-image-hover">
                   <img src="/images/founder.jpg" alt="image" />
                   <div className="info">
-                    <div className="label">kenedyouman@gmail.com</div>
+                    <div className="label">  moomoredairyfarmlimited@gmail.com</div>
                     <div className="label">+254 711320959</div>
                   </div>
                   <div className="social">
@@ -422,43 +422,10 @@ const Index2 = () => {
                   <div className="subname" style={{ color: "#FFFFFF" }}>Manager</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="/images/team1.jpg" alt="image" />
+                  <img src="/images/feeding2.JPG" alt="image" />
                   <div className="info">
-                    <div className="label">collinkorir@gmail.com</div>
-                    <div className="label">+254 712 688460</div>
-                  </div>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-youtube" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-team-item element-anim-1 scroll-animate"
-                data-animate="active"
-                style={{ backgroundColor: "skyblue" }}
-              >
-                <div className="desc">
-                  <h5 className="name" style={{ color: "black" }}>Edwin</h5>
-                  <div className="subname" style={{ color: "#FFFFFF" }}>worker</div>
-                </div>
-                <div className="image kf-image-hover">
-                  <img src="/images/team1.jpg" alt="image" />
-                  <div className="info">
-                    <div className="label"></div>
-                    <div className="label"></div>
+                    {/* <div className="label">collinkorir@gmail.com</div>
+                    <div className="label">+254 712 688460</div> */}
                   </div>
                   <div className="social">
                     <a href="#">
@@ -485,7 +452,74 @@ const Index2 = () => {
               >
                 <div className="desc">
                   <h5 className="name" style={{ color: "black" }}>Okumu</h5>
-                  <div className="subname" style={{ color: "#FFFFFF" }}>worker</div>
+                  <div className="subname" style={{ color: "#FFFFFF" }}>  farm hand</div>
+                </div>
+                <div className="image kf-image-hover">
+                  <img src="/images/okumu.JPG" alt="image" />
+                  <div className="info">
+                    <div className="label"></div>
+                    <div className="label"></div>
+                  </div>
+                  <div className="social">
+                    <a href="#">
+                      <i className="fab fa-facebook-f" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-twitter" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-linkedin" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-youtube" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <div
+                className="kf-team-item element-anim-1 scroll-animate"
+                data-animate="active"
+                style={{ backgroundColor: "skyblue" }}
+              >
+                <div className="desc">
+                  <h5 className="name" style={{ color: "black" }}>Edwin</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}>  farm hand</div>
+                </div>
+                <div className="image kf-image-hover">
+                  <img src="/images/team1.jpg" alt="image" />
+                  <div className="info">
+                    <div className="label"></div>
+                    <div className="label"></div>
+                  </div>
+                  <div className="social">
+                    <a href="#">
+                      <i className="fab fa-facebook-f" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-twitter" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-linkedin" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-youtube" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <div
+                className="kf-team-item element-anim-1 scroll-animate"
+                data-animate="active"
+                style={{ backgroundColor: "skyblue" }}
+              >
+                <div className="desc">
+                  <h5 className="name" style={{ color: "black" }}>Majuma</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}>  farm hand</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="/images/team1.jpg" alt="image" />
@@ -517,8 +551,8 @@ const Index2 = () => {
                 style={{ backgroundColor: "skyblue" }}
               >
                 <div className="desc">
-                  <h5 className="name" style={{ color: "black" }}>Majuma</h5>
-                  <div className="subname" style={{ color: "#FFFFFF" }}>worker</div>
+                  <h5 className="name" style={{ color: "black" }}>Daudi</h5>
+                  <div className="subname" style={{ color: "#FFFFFF" }}>  farm hand</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="/images/team1.jpg" alt="image" />

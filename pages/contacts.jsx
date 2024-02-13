@@ -106,7 +106,7 @@ const Contacts = () => {
                   <h5 className="name">Main Location</h5>
                   <ul>
                     <li>
-                      EDadira, <br />
+                      Dadira, <br />
                      7km off bumala centre 
                     </li>
                     <li>

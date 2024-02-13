@@ -9,7 +9,7 @@ const Team = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(/images/fee1.JPG)" }}
+          style={{ backgroundImage: "url(/images/bio1.JPG)" }}
         />
         <div className="container">
           <h1
@@ -52,7 +52,7 @@ const Team = () => {
                 <div className="image kf-image-hover">
                   <img src="/images/founder.jpg" alt="image" />
                   <div className="info">
-                    <div className="label">Kennedyouma@gmail.com</div>
+                    <div className="label">  moomoredairyfarmlimited@gmail.com</div>
                     <div className="label">+254 711320959</div>
                   </div>
                   <div className="social">
@@ -84,7 +84,7 @@ const Team = () => {
                 <div className="image kf-image-hover">
                   <img src="/images/susan.jpg" alt="image" />
                   <div className="info">
-                    <div className="label">suzannjuguna@gmail.com</div>
+                    <div className="label">  moomoredairyfarmlimited@gmail.com</div>
                     <div className="label">+254 711320959</div>
                   </div>
                   <div className="social">
@@ -114,10 +114,10 @@ const Team = () => {
                   <div className="subname">Manager</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="/images/team3.jpg" alt="image" />
+                  <img src="/images/feeding2.Jpg" alt="image" />
                   <div className="info">
-                    <div className="label">collinskorir@gmail.com</div>
-                    <div className="label">+254 712 688460</div>
+                    {/* <div className="label">collinskorir@gmail.com</div>
+                    <div className="label">+254 712 688460</div> */}
                   </div>
                   <div className="social">
                     <a href="#">
@@ -142,11 +142,11 @@ const Team = () => {
                 data-animate="active"
               >
                 <div className="desc">
-                  <h5 className="name">Okumi</h5>
+                  <h5 className="name">Bernard Okumi</h5>
                   <div className="subname">Staff</div>
                 </div>
                 <div className="image kf-image-hover">
-                  <img src="/images/team4.jpg" alt="image" />
+                  <img src="/images/okumu.JPG" alt="image" />
                   <div className="info">
                     {/* <div className="label">smithkf@gmail.com</div>
                     <div className="label">+012 (345) 678 99</div> */}
@@ -174,7 +174,7 @@ const Team = () => {
                 data-animate="active"
               >
                 <div className="desc">
-                  <h5 className="name">Majuma</h5>
+                  <h5 className="name">Majuma khaukwa</h5>
                   <div className="subname">Staff</div>
                 </div>
                 <div className="image kf-image-hover">
@@ -206,8 +206,40 @@ const Team = () => {
                 data-animate="active"
               >
                 <div className="desc">
-                  <h5 className="name">Edwin</h5>
-                  <div className="subname">staff</div>
+                  <h5 className="name">Edwin mukanzi</h5>
+                  <div className="subname">  farm hand</div>
+                </div>
+                <div className="image kf-image-hover">
+                  <img src="/images/team6.jpg" alt="image" />
+                  <div className="info">
+                    {/* <div className="label">sewardkf@gmail.com</div>
+                    <div className="label">+012 (345) 678 99</div> */}
+                  </div>
+                  <div className="social">
+                    <a href="#">
+                      <i className="fab fa-facebook-f" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-twitter" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-linkedin" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-youtube" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <div
+                className="kf-team-item element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="desc">
+                  <h5 className="name">Daudi</h5>
+                  <div className="subname">  farm hand</div>
                 </div>
                 <div className="image kf-image-hover">
                   <img src="/images/team6.jpg" alt="image" />

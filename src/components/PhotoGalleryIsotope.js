@@ -126,6 +126,26 @@ const PhotoGalleryIsotope = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
+                <a href="/images/susan1.JPG" className="has-popup-gallery">
+                  <img src="/images/susan1.JPG" alt="image" />
+                </a>
+              </div>
+              <div className="desc">
+                <div className="name">
+                  <div className="value">Susan Njuguna</div>
+                </div>
+                <div className="subname">
+                  <div className="value">Farm Founder</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="kf-gallery-col col-xs-12 col-sm-12 col-md-6 col-lg-4 all dinner-menu">
+            <div
+              className="kf-gallery-item element-anim-1 scroll-animate"
+              data-animate="active"
+            >
+              <div className="image kf-image-hover">
                 <a href="/images/cow2.webp" className="has-popup-gallery">
                   <img src="/images/cow2.webp" alt="image" />
                 </a>
