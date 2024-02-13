@@ -9,7 +9,7 @@ const Team = () => {
       <section className="section kf-started-inner">
         <div
           className="kf-parallax-bg js-parallax"
-          style={{ backgroundImage: "url(/images/fee1.jpg)" }}
+          style={{ backgroundImage: "url(/images/fee1.JPG)" }}
         />
         <div className="container">
           <h1
