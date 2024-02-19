@@ -41,15 +41,15 @@ const Header = () => {
             <a href="https://www.facebook.com/MooMoreDairyFarm" target="_blank">
   <i className="fab fa-facebook-f" />
 </a>
-              <a href="twitter.com" target="blank">
-                <i className="fab fa-twitter" />
-              </a>
-              <a href="instagram.com" target="blank">
-                <i className="fab fa-instagram" />
-              </a>
-              <a href="youtube.com" target="blank">
-                <i className="fab fa-youtube" />
-              </a>
+<a href="https://twitter.com" target="_blank">
+    <i className="fab fa-twitter" />
+  </a>
+  <a href="https://www.instagram.com/moomoredairyfarm/" target="_blank">
+  <i className="fab fa-instagram" />
+</a>
+  <a href="https://www.youtube.com/channel/UC5XNebuoaE8nIiSJu7rQu-A" target="_blank">
+  <i className="fab fa-youtube" />
+</a>
             </div>
           </div>
           <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 align-right">
@@ -238,18 +238,18 @@ const Header = () => {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               {/* social */}
               <div className="kf-h-social">
-                <a href="facebook.com" target="blank">
-                  <i className="fab fa-facebook-f" />
-                </a> 
-                <a href="twitter.com" target="blank">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a href="instagram.com" target="blank">
-                  <i className="fab fa-instagram" />
-                </a>
-                <a href="youtube.com" target="blank">
-                  <i className="fab fa-youtube" />
-                </a>
+              <a href="https://www.facebook.com/MooMoreDairyFarm" target="_blank">
+  <i className="fab fa-facebook-f" />
+</a> 
+                <a href="https://twitter.com" target="_blank">
+    <i className="fab fa-twitter" />
+  </a>
+  <a href="https://www.instagram.com/moomoredairyfarm/" target="_blank">
+  <i className="fab fa-instagram" />
+</a>
+  <a href="https://www.youtube.com/channel/UC5XNebuoaE8nIiSJu7rQu-A" target="_blank">
+  <i className="fab fa-youtube" />
+</a>
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
