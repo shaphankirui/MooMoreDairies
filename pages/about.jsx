@@ -69,7 +69,7 @@ const About = () => {
                       and demonstrations to share their knowledge and promote best practices in dairy farming.                      </div>
                     </div>
                   </li>
-                  <li
+                  {/* <li
                     className="element-anim-1 scroll-animate"
                     data-animate="active"
                   >
@@ -82,7 +82,7 @@ const About = () => {
                         We are certified and Recongnised Dairy Farm in the Region
                       </div>
                     </div>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               <Link
