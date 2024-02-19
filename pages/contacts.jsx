@@ -1,7 +1,9 @@
 import InstaCarousel from "@/src/components/sliders/InstaCarousel";
 import Layouts from "@/src/layouts/Layouts";
 import { useEffect } from 'react';
-import { sendMail } from '@/src/mailer';
+import { useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
+
 
 
 
@@ -39,26 +41,56 @@ const Contacts = () => {
       title: 'Kisumu, Kenya',
     });
   };
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    tel: '',
+    subject: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
   
     // Get form data
-    const formData = new FormData(event.target);
+    const formDataToSend = new FormData(event.target);
   
     try {
-      // Send form data to the server
+      // Send form data to the server using API route
       const response = await fetch('/api/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(Object.fromEntries(formData)),
+        body: JSON.stringify(Object.fromEntries(formDataToSend)),
       });
   
       if (response.ok) {
         console.log('Email request sent successfully');
-        // Show success message or redirect to a thank you page
+  
+        // Clear form
+        setFormData({
+          name: '',
+          email: '',
+          tel: '',
+          subject: '',
+          message: '',
+        });
+  
+        // Show success notification
+        toast.success('Thanks, your message is sent successfully.');
+  
+        // Trigger client-side notification
+        toast('Notification: Email sent successfully', {
+          icon: '🚀',
+        });
       } else {
         console.error('Error sending email request');
         // Handle error or show an error message
@@ -68,6 +100,7 @@ const Contacts = () => {
       // Handle error or show an error message
     }
   };
+
   
   return (
     <Layouts>
@@ -257,7 +290,13 @@ const Contacts = () => {
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                   <div className="kf-field">
-                    <input type="text" name="name" placeholder="Full Name" />
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Full Name"
+                      value={formData.name}
+                      onChange={handleChange}
+                    />
                     <i className="far fa-user" />
                   </div>
                 </div>
@@ -267,19 +306,33 @@ const Contacts = () => {
                       type="email"
                       name="email"
                       placeholder="Email Address"
+                      value={formData.email}
+                      onChange={handleChange}
                     />
                     <i className="fas fa-at" />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                   <div className="kf-field">
-                    <input type="tel" name="tel" placeholder="Phone Number" />
+                    <input
+                      type="tel"
+                      name="tel"
+                      placeholder="Phone Number"
+                      value={formData.tel}
+                      onChange={handleChange}
+                    />
                     <i className="fas fa-mobile-alt" />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   <div className="kf-field">
-                    <input type="text" name="subject" placeholder="Subject" />
+                    <input
+                      type="text"
+                      name="subject"
+                      placeholder="Subject"
+                      value={formData.subject}
+                      onChange={handleChange}
+                    />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -287,20 +340,17 @@ const Contacts = () => {
                     <textarea
                       name="message"
                       placeholder="Message"
-                      defaultValue={""}
+                      value={formData.message}
+                      onChange={handleChange}
                     />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   <div className="kf-bts">
-                    <a
-                      href="#"
-                      className="kf-btn"
-                      onclick="$('#cform').handleSubmit(); return false;"
-                    >
-                      <span>Send us message</span>
+                    <button type="submit" className="kf-btn">
+                      <span>Send us a message</span>
                       <i className="fas fa-chevron-right" />
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>

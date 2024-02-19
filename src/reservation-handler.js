@@ -1,4 +1,4 @@
-// src/mailer.js
+// src/reservation-handler.js
 
 const nodemailer = require('nodemailer');
 
@@ -10,27 +10,27 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-const sendMail = async (formData) => {
+export const submitReservation = async (formData) => {
   try {
     const mailOptions = {
       from: 'mooandmoredairyfarmlimited@gmail.com', // Sender email address
       to: 'mooandmoredairyfarmlimited@gmail.com', // Receiver email address
-      subject: formData.subject,
+      subject: 'New Reservation',
       html: `
         <p>Name: ${formData.name}</p>
         <p>Email: ${formData.email}</p>
         <p>Phone Number: ${formData.tel}</p>
-        <p>Message: ${formData.message}</p>
+        <p>Number of Persons: ${formData.persons}</p>
+        <p>Date: ${formData.date}</p>
+        <p>Time: ${formData.time}</p>
       `,
     };
 
     const result = await transporter.sendMail(mailOptions);
-    console.log('Email sent successfully:', result);
-    return result;
+    console.log('Reservation submitted successfully:', result);
+    return { success: true, message: 'Reservation submitted successfully' };
   } catch (error) {
-    console.error('Error sending email:', error);
-    throw error;
+    console.error('Error submitting reservation:', error);
+    return { success: false, message: 'Error submitting reservation' };
   }
 };
-
-module.exports = { sendMail };

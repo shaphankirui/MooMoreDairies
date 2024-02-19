@@ -154,7 +154,7 @@ const Header = () => {
               <span />
             </a>
             {/* btn */}
-            <Link href="reservation" className="kf-btn h-btn">
+            <Link href="contacts" className="kf-btn h-btn">
               <span>Contact Us Now</span>
             </Link>
           </div>
@@ -230,7 +230,7 @@ const Header = () => {
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               {/* mobile btn */}
-              <Link href="reservation" className="kf-btn h-btn">
+              <Link href="contacts" className="kf-btn h-btn">
                 <span>Contact Us Now</span>
                 <i className="fas fa-chevron-right" />
               </Link>
