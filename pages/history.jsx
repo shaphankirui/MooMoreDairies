@@ -111,7 +111,7 @@ const History = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="/images/history1.jpg" alt="image" />
+                      <img src="/images/cows1.JPG" alt="image" />
                     </div>
                     <div className="desc">
                       <div className="subname">
@@ -142,7 +142,7 @@ const History = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="/images/history2.jpg" alt="image" />
+                      <img src="/images/burning.jpg" alt="image" />
                     </div>
                     <div className="desc">
                       <div className="subname">Green Horizons:</div>
@@ -171,7 +171,7 @@ const History = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="/images/history3.jpg" alt="image" />
+                      <img src="/images/calfs1.JPG" alt="image" />
                     </div>
                     <div className="desc">
                       <div className="subname">Nurturing the Future:</div>
@@ -199,7 +199,7 @@ const History = () => {
                     data-animate="active"
                   >
                     <div className="image">
-                      <img src="/images/history4.jpg" alt="image" />
+                      <img src="/images/cows4.JPG" alt="image" />
                     </div>
                     <div className="desc">
                       <div className="subname">

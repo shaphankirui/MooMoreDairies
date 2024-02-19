@@ -59,11 +59,11 @@ const Reservation = () => {
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <div className="kf-field">
-                    <select name="persons">
-                      <option>1 Person</option>
-                      <option>2 Persons</option>
-                      <option>3 Persons</option>
-                      <option>4 Persons</option>
+                    <select name="persons" >
+                      <option style={{color: "black"}}>1 Person</option>
+                      <option style={{color: "black"}}>2 Person</option>
+                      <option style={{color: "black"}}>3 Person</option>
+                      <option style={{color: "black"}}>4 Person</option>
                     </select>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const Reservation = () => {
       {/* Section Insta Carousel */}
       {/* <InstaCarousel /> */}
       {/* Section Brands */}
-      <div className="section kf-brands">
+      {/* <div className="section kf-brands">
         <div className="container">
           <div className="kf-brands-items row">
             <div className="col-xs-12 col-sm-12 col-md-3 col-lg-2">
@@ -167,7 +167,7 @@ const Reservation = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layouts>
   );
 };

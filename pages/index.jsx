@@ -615,7 +615,7 @@ const Index2 = () => {
                  and community support.
                 </p>
               </div>
-              <div className="kf-choose-list">
+              {/* <div className="kf-choose-list">
                 <ul>
                   <li
                     className="element-anim-1 scroll-animate"
@@ -632,7 +632,7 @@ const Index2 = () => {
                     </div>
                   </li>
                 </ul>
-              </div>
+              </div> */}
               <Link
                 href="about"
                 className="kf-btn element-anim-1 scroll-animate"
