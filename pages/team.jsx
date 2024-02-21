@@ -174,7 +174,7 @@ const Team = () => {
                 data-animate="active"
               >
                 <div className="desc">
-                  <h5 className="name">Majuma khaukwa</h5>
+                  <h5 className="name">Rashid khaukwa</h5>
                   <div className="subname">Staff</div>
                 </div>
                 <div className="image kf-image-hover">

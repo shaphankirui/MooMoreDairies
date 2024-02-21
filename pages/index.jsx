@@ -518,7 +518,7 @@ const Index2 = () => {
                 style={{ backgroundColor: "skyblue" }}
               >
                 <div className="desc">
-                  <h5 className="name" style={{ color: "black" }}>Majuma</h5>
+                  <h5 className="name" style={{ color: "black" }}>Rashid</h5>
                   <div className="subname" style={{ color: "#FFFFFF" }}>  farm hand</div>
                 </div>
                 <div className="image kf-image-hover">
