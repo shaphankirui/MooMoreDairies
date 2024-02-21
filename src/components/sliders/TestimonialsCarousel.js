@@ -104,7 +104,7 @@ const TestimonialsCarousel = () => {
                      It's more than a brand; it's a trusty companion in our daily routine.
                     </div>
                     <h5 className="name">
-                      Olivia Ouma <em>Local Farmer</em>
+                      Olivia Ouma <em>Local Farmer,Kitale</em>
                     </h5>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ const TestimonialsCarousel = () => {
                     into every aspect of their dairy production. Proud to be a Moo and Moro supporter!
                     </div>
                     <h5 className="name">
-                      Victor S. <em>Teacher,Kericho</em>
+                      Victor S. <em>Teacher,Siaya</em>
                     </h5>
                   </div>
                 </div>
