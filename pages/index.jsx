@@ -826,13 +826,13 @@ const Index2 = () => {
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Get Every Single Update
+              Get Every Single Recent Visit
             </div>
             <h3
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Read Some Latest Blog &amp; News
+              Read Some Latest Visits &amp; News
             </h3>
           </div>
           <div className="kf-blog-grid-items row">
@@ -843,20 +843,21 @@ const Index2 = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="/images/blog1.avif" alt="image" />
+                    <img src="/images/visit1.JPG" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
-                  <h5 className="name">
-                     The Journey from Pasture to Pour: A Day in the Life of a Dairy Farmer
-                  </h5>
+                  <h5 className="name" style={{ fontSize: '1.1em', margin: '0.5em 0' }}>
+                  Discover sustainable farming: happy cows, responsible breeding, 
+                  and biogas production. Your visit celebrates not just our farm but also community outreach.                 </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
-                    25 Sep 2021
+                    December 2023
                   </div>
                   <div className="kf-comm">
                     <i className="far fa-comments" />
-                    Comments (7)
+                   Sub county co-operative officer,
+                     vice chairperson,secretary and one member of butula dairy cooperative
                   </div>
                 </div>
               </div>
@@ -868,20 +869,21 @@ const Index2 = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="/images/blog2.avif" alt="image" />
+                    <img src="/images/visit2.JPG" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
-                  <h5 className="name">
-                  Sustainable Farming Practices: Nurturing the Land and Caring for Cows
-                  </h5>
+                  <h5 className="name" style={{ fontSize: '1.1em', margin: '0.5em 0' }}>
+                  Taste farm life, explore responsible breeding, and learn about biogas production.
+                   Every visit enriches not only your experience but
+                   also our commitment to sustainability.                  </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
-                    25 Sep 2021
+                    December 2023
                   </div>
                   <div className="kf-comm">
                     <i className="far fa-comments" />
-                    Comments (7)
+                    Principal Administrative Secretary (PAS) in the Executive office of the president.
                   </div>
                 </div>
               </div>
@@ -893,19 +895,21 @@ const Index2 = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="/images/blog3.jpg" alt="image" />
+                    <img src="/images/visit3.JPG" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
-                  <h5 className="name">
-                  Crafting Artisanal Cheese: A Behind-the-Scenes Look at Our Cheese-Making Process                  </h5>
+                  <h5 className="name" style={{ fontSize: '1.1em', margin: '0.5em 0' }}>
+                  ourney from pasture to palate with insights into responsible breeding, biogas production, 
+                  and community outreach. 
+                  Your visit is more than a farm experience; it's a celebration of nature and community spirit.                  </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
-                    25 Sep 2021
+                    December 2023
                   </div>
                   <div className="kf-comm">
                     <i className="far fa-comments" />
-                    Comments (7)
+                    Sunil Shah, Managing Director at United Millers Limited
                   </div>
                 </div>
               </div>
