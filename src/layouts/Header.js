@@ -106,14 +106,21 @@ const Header = () => {
                   </ul>
                 </li> */}
                 <li>
+                  <a href="services">
+                  Service
+                    {/* <i className="las la-angle-down" /> */}
+                  </a>
+                  
+                </li>
+                <li>
                   <a href="#">
                     Pages
                     <i className="las la-angle-down" />
                   </a>
                   <ul style={{background:'skyblue',color:"black"}}> 
-                    <li>
+                    {/* <li>
                       <Link href="services">Service</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="reservation">Reservation</Link>
                     </li>
@@ -131,13 +138,7 @@ const Header = () => {
                     </li> */}
                   </ul>
                 </li>
-                <li>
-                  <a href="blog-grid">
-                    Blog
-                    {/* <i className="las la-angle-down" /> */}
-                  </a>
-                  
-                </li>
+                
                 <li>
                   <Link href="contacts">Contacts</Link>
                 </li>
@@ -188,6 +189,11 @@ const Header = () => {
                 </li>
               </ul>
             </li> */}
+             <li className="has-children">
+              <a href="services">Services</a>
+             
+             
+            </li>
             <li className="has-children">
               <a href="#">Pages</a>
               <i
@@ -195,9 +201,9 @@ const Header = () => {
                 onClick={() => activeMenuSet("Pages")}
               />
               <ul style={activeLi("Pages")}>
-                <li>
+                {/* <li>
                   <Link href="services">Service</Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="reservation">Reservation</Link>
                 </li>
@@ -215,11 +221,7 @@ const Header = () => {
                 </li> */}
               </ul>
             </li>
-            <li className="has-children">
-              <a href="blog-grid">Blog</a>
-             
-             
-            </li>
+           
             <li>
               <Link href="contacts">Contacts</Link>
             </li>

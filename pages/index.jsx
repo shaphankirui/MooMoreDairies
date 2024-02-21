@@ -915,7 +915,7 @@ const Index2 = () => {
               </div>
             </div>
           </div>
-          <div className="align-center">
+          {/* <div className="align-center">
             <Link
               href="blog-grid"
               className="kf-btn element-anim-1 scroll-animate"
@@ -924,7 +924,7 @@ const Index2 = () => {
               <span>view all</span>
               <i className="fas fa-chevron-right" />
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* Section Insta Carousel */}
