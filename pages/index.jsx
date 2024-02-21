@@ -843,7 +843,7 @@ const Index2 = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="/images/visit1.JPG" alt="image" />
+                    <img src="/images/visit1.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -869,7 +869,7 @@ const Index2 = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="/images/visit2.JPG" alt="image" />
+                    <img src="/images/visit2.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
@@ -895,7 +895,7 @@ const Index2 = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="/images/visit3.JPG" alt="image" />
+                    <img src="/images/visit3.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
