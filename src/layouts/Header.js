@@ -38,7 +38,7 @@ const Header = () => {
           <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 align-center">
             {/* social */}
             <div className="kf-h-social">
-            <a href="https://www.facebook.com/MooMoreDairyFarm" target="_blank">
+            <a href="https://www.facebook.com/profile.php?id=61556472519307" target="_blank">
   <i className="fab fa-facebook-f" />
 </a>
 <a href="https://twitter.com/moo_and_more_" target="_blank">
@@ -240,9 +240,9 @@ const Header = () => {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               {/* social */}
               <div className="kf-h-social">
-              <a href="https://www.facebook.com/MooMoreDairyFarm" target="_blank">
+              <a href="https://www.facebook.com/profile.php?id=61556472519307" target="_blank">
   <i className="fab fa-facebook-f" />
-</a> 
+</a>
 <a href="https://twitter.com/moo_and_more_" target="_blank">
     <i className="fab fa-twitter" />
   </a>
