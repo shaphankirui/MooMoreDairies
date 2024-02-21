@@ -96,10 +96,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/images/calfs2.webp"
+                    href="/images/calfs2.JPG"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="/images/calfs2.webp" alt="image" />
+                    <img src="/images/calfs2.JPG" alt="image" />
                   </a>
                 </li>
                 <li>

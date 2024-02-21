@@ -137,7 +137,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="/images/blog7.jpg" alt="image" />
+                      <img src="/images/cow2.JPG" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -147,7 +147,7 @@ const Index2 = () => {
                 <div className="kf-category-item">
                   <div className="image kf-image-hover">
                     <Link href="services">
-                      <img src="/images/calfs2.webp" alt="image" />
+                      <img src="/images/calfs2.JPG" alt="image" />
                     </Link>
                   </div>
                   <div className="desc">
@@ -392,7 +392,7 @@ const Index2 = () => {
                   <img src="/images/founder.jpg" alt="image" />
                   <div className="info">
                     <div className="label">  moomoredairyfarmlimited@gmail.com</div>
-                    <div className="label">+254 711320959</div>
+                    <div className="label">0720346021</div>
                   </div>
                   <div className="social">
                     <a href="#">

@@ -53,7 +53,7 @@ const Team = () => {
                   <img src="/images/founder.jpg" alt="image" />
                   <div className="info">
                     <div className="label">  moomoredairyfarmlimited@gmail.com</div>
-                    <div className="label">+254 711320959</div>
+                    <div className="label">0720346021</div>
                   </div>
                   <div className="social">
                     <a href="#">

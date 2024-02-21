@@ -52,7 +52,7 @@ const TestimonialsCarousel = () => {
                     that I'm supporting a local business committed to quality and sustainability
                     </div>
                     <h5 className="name">
-                      Frederick Marwa <em>Farmer</em>
+                      Frederick Omondi  <em>Farmer,Bumala</em>
                     </h5>
                   </div>
                 </div>
@@ -78,7 +78,7 @@ const TestimonialsCarousel = () => {
                      and the highest standards of quality. It's not just dairy – it's an experience.
                     </div>
                     <h5 className="name">
-                      Winny Ngeno <em>Business Woman</em>
+                      Winny Okonyene <em>Business Woman, Kakamega</em>
                     </h5>
                   </div>
                 </div>
@@ -104,7 +104,7 @@ const TestimonialsCarousel = () => {
                      It's more than a brand; it's a trusty companion in our daily routine.
                     </div>
                     <h5 className="name">
-                      Olivia D. Nakuru <em>Local Farmer</em>
+                      Olivia Ouma <em>Local Farmer</em>
                     </h5>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ const TestimonialsCarousel = () => {
                     into every aspect of their dairy production. Proud to be a Moo and Moro supporter!
                     </div>
                     <h5 className="name">
-                      Frederick S. Nairobi <em>Teacher</em>
+                      Victor S. <em>Teacher,Kericho</em>
                     </h5>
                   </div>
                 </div>
@@ -152,12 +152,10 @@ const TestimonialsCarousel = () => {
                       <i className="fas fa-star" />
                     </div>
                     <div className="kf-text">
-                      Sed ut perspiciatis unde omnis natus error luptatem
-                      accusantium doloremque laudantium totam remriam eaque quae
-                      abillo
+                      I visited the Farm and I really love the work they do. They are very professional and they are very friendly. They are very organized and they are very helpful.
                     </div>
                     <h5 className="name">
-                      James M. London <em>Lawyer</em>
+                      James Maina <em>Dairy Farmer,Nyeri</em>
                     </h5>
                   </div>
                 </div>
@@ -183,7 +181,7 @@ const TestimonialsCarousel = () => {
                      and the highest standards of quality. It's not just dairy – it's an experience.
                     </div>
                     <h5 className="name">
-                      Olivia D. Molo <em>Custommer</em>
+                      Faith Atieno <em>Customer,Siaya</em>
                     </h5>
                   </div>
                 </div>

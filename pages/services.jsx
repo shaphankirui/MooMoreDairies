@@ -152,6 +152,22 @@ const Services = () => {
                 data-animate="active"
               >
                 <div className="icon">
+                <i class="las la-blender"></i>
+                </div>
+                <div className="desc">
+  <h5 className="name">Fresh Milk and Milk Products</h5>
+  <div style={{color:"black"}} className="subname">
+    Delight your senses with the essence of our happy herd's milk and milk products. Straight from our farm to your table, savor the unrivaled freshness and wholesome goodness in every drop. Elevate your taste experience with the pure and natural richness we proudly deliver.
+  </div>
+</div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+              <div
+                className="kf-numbers-item-2 element-anim-1 scroll-animate"
+                data-animate="active"
+              >
+                <div className="icon">
                 <i class="lab la-pagelines"></i>
                 </div>
                 <div className="desc">

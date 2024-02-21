@@ -99,7 +99,7 @@ const History = () => {
               data-animate="active"
               style={{color: "black"}}
             >
-              Something Know About Our History
+              Something To Know About Our History
             </h3>
           </div>
           <div className="kf-history-carousel">
