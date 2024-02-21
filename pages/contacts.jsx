@@ -206,7 +206,7 @@ const Contacts = () => {
               >
                 <div className="image">
                   {/*<img src="/images/contact_icon3.png" alt="" />*/}
-                  <a href="https://twitter.com/YourTwitterHandle" target="_blank">
+                  <a href="https://twitter.com/moo_and_more_" target="_blank">
                     <i className="fab fa-twitter" />
                   </a>                </div>
                 <div className="desc">

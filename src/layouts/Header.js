@@ -41,7 +41,7 @@ const Header = () => {
             <a href="https://www.facebook.com/MooMoreDairyFarm" target="_blank">
   <i className="fab fa-facebook-f" />
 </a>
-<a href="https://twitter.com" target="_blank">
+<a href="https://twitter.com/moo_and_more_" target="_blank">
     <i className="fab fa-twitter" />
   </a>
   <a href="https://www.instagram.com/moomoredairyfarm/" target="_blank">
@@ -243,7 +243,7 @@ const Header = () => {
               <a href="https://www.facebook.com/MooMoreDairyFarm" target="_blank">
   <i className="fab fa-facebook-f" />
 </a> 
-                <a href="https://twitter.com" target="_blank">
+<a href="https://twitter.com/moo_and_more_" target="_blank">
     <i className="fab fa-twitter" />
   </a>
   <a href="https://www.instagram.com/moomoredairyfarm/" target="_blank">
