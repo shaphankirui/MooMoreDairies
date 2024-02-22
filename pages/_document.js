@@ -4,9 +4,13 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>moo and more Dary  </title>
+      <title>Moo and More Dairy - Finest Dairy Products from Kenya</title>
          {/* Add a link tag for the favicon */}
          <link rel="icon" href="/images/favicon.ico" />
+          <meta
+            name="description"
+            content="Explore Moo and More Dairy for the finest dairy products in Kisumu Kenya. We are dedicated to delivering high-quality milk, cheese, and more from our trusted dairy farm. Experience the freshness of farm-to-table goodness with Moo and More Dairy."
+          />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
