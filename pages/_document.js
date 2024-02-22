@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>moo &amp; more </title>
+        <title>moo and more Dary Farm </title>
          {/* Add a link tag for the favicon */}
          <link rel="icon" href="/images/favicon.ico" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
