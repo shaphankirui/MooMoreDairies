@@ -59,6 +59,14 @@ const Contacts = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
   
+    // Check if the email field is empty
+    if (!formData.email.trim()) {
+      // Display an error message or prevent form submission
+      toast.error('Please enter your email address.');
+      console.log('Please enter your email address.');
+      return;
+    }
+  
     // Get form data
     const formDataToSend = new FormData(event.target);
   
@@ -86,6 +94,7 @@ const Contacts = () => {
   
         // Show success notification
         toast.success('Thanks, your message is sent successfully.');
+        
   
         // Trigger client-side notification
         toast('Notification: Email sent successfully', {
@@ -100,6 +109,7 @@ const Contacts = () => {
       // Handle error or show an error message
     }
   };
+  
 
   
   return (

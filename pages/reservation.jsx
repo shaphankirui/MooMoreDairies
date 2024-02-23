@@ -15,7 +15,17 @@ const Reservation = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-
+  
+    // Check if any of the required fields are empty
+    const requiredFields = ['name', 'email', 'tel', 'date', 'time'];
+    const isEmptyField = requiredFields.some(field => !formData[field].trim());
+  
+    if (isEmptyField) {
+      // Display an error message or prevent form submission
+      toast.error('Please fill in all the required fields.');
+      return;
+    }
+  
     try {
       // Send form data to the server using the API route
       const response = await fetch('/api/submit-reservation', {
@@ -25,7 +35,7 @@ const Reservation = () => {
         },
         body: JSON.stringify(formData),
       });
-
+  
       if (response.ok) {
         console.log('Reservation request sent successfully');
         toast.success('Reservation sent successfully!');
@@ -47,6 +57,7 @@ const Reservation = () => {
       toast.error('Error submitting reservation request');
     }
   };
+  
 
   const handleChange = (event) => {
     const { name, value } = event.target;
