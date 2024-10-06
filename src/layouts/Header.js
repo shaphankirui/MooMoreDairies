@@ -66,9 +66,9 @@ const Header = () => {
         <div className="row">
           <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             {/* logo */}
-            <div className="kf-logo" style={{ display: 'flex', flexDirection: 'row' }}>
-              <Link href="/">
-                <img src="/images/logo.png" alt="image"  />
+            <div className="kf-logo" style={{ display: 'flex',  flexDirection: 'row' }}>
+              <Link href="/" >
+                <img style={{width:'100px',height:'80px'}} src="/images/logo.jpg" alt="image"  />
               </Link>
               <div className="company-name" style={{ marginLeft: '10px' }}>
                 Moo & More Dairy 
